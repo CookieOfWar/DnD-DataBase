@@ -1,0 +1,22 @@
+{
+  "name": "dnd-api",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "app.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build-watch": "vite build --watch",
+    "serve": "concurrently --kill-others \"vite build --watch\" \"nodemon app.cjs\""
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
