@@ -22,18 +22,12 @@ app.get("/spells", (req, res) => {
   res.send(require("./src/spells.cjs"));
 });
 
-app.get("/portrait/<race>-<class>-<sex>", (req, res) => {
-  console.log(
-    `./src/portraits/${req.params.race}-${req.params.class}-${req.params.sex}.jpg`
-  );
+app.get(/\/portrait\/(.*)\-(.*)\-(.*)/, (req, res) => {
+  let params = req.path.split("/")[2].split("-");
   res.sendFile(
-    `./src/portraits/${req.params.race}-${req.params.class}-${req.params.sex}.jpg`
+    __dirname + `/src/portraits/${params[0]}-${params[1]}-${params[2]}.jpg`
   );
 });
-//   res.send(
-//     require(`./src/portraits/${req.params.race}-${req.params.class}-${req.params.sex}.jpg`)
-//   );
-// });
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
