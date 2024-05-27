@@ -4,7 +4,7 @@ const app = express();
 port = 8000;
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("DnD-API");
 });
 
 app.get("/races", (req, res) => {
@@ -15,7 +15,7 @@ app.get("/classes", (req, res) => {
   res.send(require("./src/classes.cjs"));
 });
 
-app.get("spells", (req, res) => {
+app.get("/spells", (req, res) => {
   res.send(require("./src/spells.cjs"));
 });
 
