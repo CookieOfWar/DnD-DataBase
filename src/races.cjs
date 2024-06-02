@@ -1,5 +1,4 @@
 const RacesRu = [
-  "Гит",
   "Гном",
   "Гоблин",
   "Голиаф",
@@ -16,7 +15,6 @@ const RacesRu = [
 ];
 
 const RacesEn = [
-  "Gith",
   "Gnome",
   "Goblin",
   "Goliath",
