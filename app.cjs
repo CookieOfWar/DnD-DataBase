@@ -29,9 +29,8 @@ app.get(/\/portrait\/(.*)\-(.*)\-(.*)/, (req, res) => {
   );
 });
 
-app.get(/\/race\/(\w)/, (req, res) => {
-  let race = req.path.split("/")[2];
-  res.send(require(`./src/races/list.cjs`)[race]);
+app.get(/\/race/, (req, res) => {
+  res.send(require(`./src/races/list.cjs`));
 });
 
 app.listen(port, () => {
