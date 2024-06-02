@@ -30,7 +30,7 @@ app.get(/\/portrait\/(.*)\-(.*)\-(.*)/, (req, res) => {
 });
 
 app.get(/\/race/, (req, res) => {
-  res.send(require(`./src/races/list.cjs`));
+  res.send(require(`./src/racesDetails.cjs`));
 });
 
 app.listen(port, () => {
