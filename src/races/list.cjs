@@ -775,3 +775,5 @@ const Races = {
     },
   },
 };
+
+module.exports = Races;
