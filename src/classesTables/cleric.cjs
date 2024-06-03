@@ -73,10 +73,10 @@ const details = {
 </table>
 `,
   additionalInfo: `
-<div bis_skin_checked="1" class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение<span class="spoiler_head_button">свернуть</span></h3><span class="spoiler_body">
-<h4 class="tableTitle">ХИТЫ</h4><p><strong>Кость Хитов:</strong> <span class="dice"><span>1к8</span><span></span></span> за каждый уровень жреца</p>
+<div bis_skin_checked="1" class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение</h3><span class="spoiler_body">
+<h4 class="tableTitle">ХИТЫ</h4><p><strong>Кость Хитов:</strong> <span class="dice"><span>1к8</span></span> за каждый уровень жреца</p>
 <p><strong>Хиты на 1 уровне:</strong> 8 + модификатор Телосложения</p>
-<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к8</span><span></span></span> (или 5) + модификатор Телосложения (суммарно минимум 1) за каждый уровень жреца после первого</p>
+<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к8</span></span> (или 5) + модификатор Телосложения (суммарно минимум 1) за каждый уровень жреца после первого</p>
 <br/><h4 class="tableTitle">ВЛАДЕНИЕ</h4><p><strong>Доспехи:</strong> <span class="additionalAbility">Лёгкие доспехи</span>, <span class="additionalAbility">средние доспехи</span>, <span class="additionalAbility">щиты</span></p>
 <p><strong>Оружие: </strong><span class="additionalAbility">Простое оружие</span></p>
 <p><strong>Инструменты: </strong>Нет</p>
@@ -86,11 +86,11 @@ const details = {
 <ul>
 <li>а) <span class="additionalAbility">булава</span> или б) <span class="additionalAbility">боевой молот</span> (если владеете)</li>
 <li>а) <span class="additionalAbility">чешуйчатый доспех</span>, б) <span class="additionalAbility">кожаный доспех</span> или в) <span class="additionalAbility">кольчуга</span> (если владеете)</li>
-<li>а) <span class="additionalAbility">лёгкий арбалет</span> и <a href="https://dnd.su/articles/inventory/98-equipment/#equipment.arrow" target="_blank">20 болтов</a> или б) любое <span class="additionalAbility">простое оружие</span></li>
+<li>а) <span class="additionalAbility">лёгкий арбалет</span> и <span class="additionalAbility">20 болтов</span> или б) любое <span class="additionalAbility">простое оружие</span></li>
 <li>а) <span class="tooltipstered tooltip" tooltip-for="item.pack.priest">набор священника</span> или б) <span class="tooltipstered tooltip" tooltip-for="item.pack.explorer">набор путешественника</span></li>
 <li><span class="additionalAbility">Щит</span> и <span class="additionalAbility">священный символ</span></li>
 </ul>
-<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>5к4×10</span><span></span></span> зм для покупки снаряжения.</p>
+<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>5к4×10</span></span> зм для покупки снаряжения.</p>
 </span></div>
 `,
   explanations: {
@@ -174,7 +174,7 @@ const details = {
     "благословлённые удары": `
 <h3 class="underlined"><span id="feature.blessed-strikes">Благословлённые удары</span></h3>
 <p><em>8-й уровень, <span tooltip-for="option.TCE" class="tooltipstered tooltip">опциональное</span> умение жреца, заменяющее умения «Божественный удар» или «Могущественное колдовство» </em></p>
-<p>Вы благословлены божественной мощью в битве. Когда существо получает урон от вашего заговора или атаки оружием, вы можете дополнительно нанести <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span><span></span></span> урона излучением. Как только вы нанесёте этот урон, вы не сможете использовать это умение снова до начала вашего следующего хода.</p>
+<p>Вы благословлены божественной мощью в битве. Когда существо получает урон от вашего заговора или атаки оружием, вы можете дополнительно нанести <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span></span> урона излучением. Как только вы нанесёте этот урон, вы не сможете использовать это умение снова до начала вашего следующего хода.</p>
 </div>
 <br>`,
     "божественное вмешательство": `

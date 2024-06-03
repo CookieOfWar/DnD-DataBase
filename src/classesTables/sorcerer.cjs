@@ -74,11 +74,11 @@ const details = {
 </tbody></table>
 `,
   additionalInfo: `
-<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение<span class="spoiler_head_button">свернуть</span></h3><span class="spoiler_body">
+<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение</h3><span class="spoiler_body">
 <h4 class="smallSectionTitle">ХИТЫ</h4>
-<p><strong>Кость Хитов:</strong> <span class="dice"><span>1к6</span><span></span></span> за каждый уровень чародея</p>
+<p><strong>Кость Хитов:</strong> <span class="dice"><span>1к6</span></span> за каждый уровень чародея</p>
 <p><strong>Хиты на 1 уровне: </strong>6 + модификатор Телосложения</p>
-<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к6</span><span></span></span> (или 4) + модификатор Телосложения (суммарно минимум 1) за каждый уровень чародея после первого</p>
+<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к6</span></span> (или 4) + модификатор Телосложения (суммарно минимум 1) за каждый уровень чародея после первого</p>
 <br/>
 <h4 class="smallSectionTitle">ВЛАДЕНИЕ</h4>
 <p><strong>Доспехи: </strong>нет</p>
@@ -90,12 +90,12 @@ const details = {
 <h4 class="smallSectionTitle">СНАРЯЖЕНИЕ</h4>
 <p>Вы начинаете со следующим снаряжением в дополнение к снаряжению, полученному за вашу предысторию:</p>
 <ul>
-<li>а) <span class="additionalAbility">лёгкий арбалет</span> и <a href="https://dnd.su/articles/inventory/98-equipment/#equipment.bolt" target="_blank">20 болтов</a> или б) любое <span class="additionalAbility">простое оружие</span></li>
+<li>а) <span class="additionalAbility">лёгкий арбалет</span> и <span class="additionalAbility">20 болтов</span> или б) любое <span class="additionalAbility">простое оружие</span></li>
 <li>а) <span class="additionalAbility">мешочек с компонентами</span> или б) <span class="additionalAbility">магическая фокусировка</span></li>
 <li>а) <span class="tooltipstered tooltip" tooltip-for="item.pack.dungeoneer">набор исследователя подземелий</span> или б) <span class="tooltipstered tooltip" tooltip-for="item.pack.explorer">набор путешественника</span></li>
 <li>Два <span class="additionalAbility">кинжала</span></li>
 </ul>
-<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>3к4 × 10</span><span></span></span> зм для покупки снаряжения.</p>
+<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>3к4 × 10</span></span> зм для покупки снаряжения.</p>
 </span></div>
 `,
   explanations: {

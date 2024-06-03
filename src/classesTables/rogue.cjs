@@ -7,34 +7,34 @@ const details = {
 <td><span class="long">Скрытая<br/>атака</span><span class="short tooltip tooltipstered">са</span></td>
 <td>Умения</td>
 </tr>
-<tr> <td>1</td><td>+2</td> <td><span class="dice"><span>1к6</span><span></span></span></td><td><span class="tableAbility">Компетентность</span>, <span class="tableAbility">Скрытая атака</span>, <span class="tableAbility">Воровской жаргон</span></td></tr>
-<tr> <td>2</td><td>+2</td> <td><span class="dice"><span>1к6</span><span></span></span></td><td><span class="tableAbility">Хитрое действие</span></td></tr>
-<tr> <td>3</td><td>+2</td> <td><span class="dice"><span>2к6</span><span></span></span></td><td><span class="tableAbility">Архетип плута</span>, <span class="tableAbility">Точное прицеливание</span></td></tr>
-<tr> <td>4</td><td>+2</td> <td><span class="dice"><span>2к6</span><span></span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
-<tr> <td>5</td><td>+3</td> <td><span class="dice"><span>3к6</span><span></span></span></td><td><span class="tableAbility">Невероятное уклонение</span></td></tr>
-<tr> <td>6</td><td>+3</td> <td><span class="dice"><span>3к6</span><span></span></span></td><td><span class="tableAbility">Компетентность</span></td></tr>
-<tr> <td>7</td><td>+3</td> <td><span class="dice"><span>4к6</span><span></span></span></td><td><span class="tableAbility">Увёртливость</span></td></tr>
-<tr> <td>8</td><td>+3</td> <td><span class="dice"><span>4к6</span><span></span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
-<tr> <td>9</td><td>+4</td> <td><span class="dice"><span>5к6</span><span></span></span></td><td><span class="tableAbility">Умение архетипа плута</span></td></tr>
-<tr><td>10</td><td>+4</td> <td><span class="dice"><span>5к6</span><span></span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
-<tr><td>11</td><td>+4</td> <td><span class="dice"><span>6к6</span><span></span></span></td><td><span class="tableAbility">Надёжный талант</span></td></tr>
-<tr><td>12</td><td>+4</td> <td><span class="dice"><span>6к6</span><span></span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
-<tr><td>13</td><td>+5</td> <td><span class="dice"><span>7к6</span><span></span></span></td><td><span class="tableAbility">Умение архетипа плута</span></td></tr>
-<tr><td>14</td><td>+5</td> <td><span class="dice"><span>7к6</span><span></span></span></td><td><span class="tableAbility">Слепое зрение</span></td></tr>
-<tr><td>15</td><td>+5</td> <td><span class="dice"><span>8к6</span><span></span></span></td><td><span class="tableAbility">Скользкий ум</span></td></tr>
-<tr><td>16</td><td>+5</td> <td><span class="dice"><span>8к6</span><span></span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
-<tr><td>17</td><td>+6</td> <td><span class="dice"><span>9к6</span><span></span></span></td><td><span class="tableAbility">Умение архетипа плута</span></td></tr>
-<tr><td>18</td><td>+6</td> <td><span class="dice"><span>9к6</span><span></span></span></td><td><span class="tableAbility">Неуловимость</span></td></tr>
-<tr><td>19</td><td>+6</td><td><span class="dice"><span>10к6</span><span></span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
-<tr><td>20</td><td>+6</td><td><span class="dice"><span>10к6</span><span></span></span></td><td><span class="tableAbility">Удача</span></td></tr>
+<tr> <td>1</td><td>+2</td> <td><span class="dice"><span>1к6</span></span></td><td><span class="tableAbility">Компетентность</span>, <span class="tableAbility">Скрытая атака</span>, <span class="tableAbility">Воровской жаргон</span></td></tr>
+<tr> <td>2</td><td>+2</td> <td><span class="dice"><span>1к6</span></span></td><td><span class="tableAbility">Хитрое действие</span></td></tr>
+<tr> <td>3</td><td>+2</td> <td><span class="dice"><span>2к6</span></span></td><td><span class="tableAbility">Архетип плута</span>, <span class="tableAbility">Точное прицеливание</span></td></tr>
+<tr> <td>4</td><td>+2</td> <td><span class="dice"><span>2к6</span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
+<tr> <td>5</td><td>+3</td> <td><span class="dice"><span>3к6</span></span></td><td><span class="tableAbility">Невероятное уклонение</span></td></tr>
+<tr> <td>6</td><td>+3</td> <td><span class="dice"><span>3к6</span></span></td><td><span class="tableAbility">Компетентность</span></td></tr>
+<tr> <td>7</td><td>+3</td> <td><span class="dice"><span>4к6</span></span></td><td><span class="tableAbility">Увёртливость</span></td></tr>
+<tr> <td>8</td><td>+3</td> <td><span class="dice"><span>4к6</span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
+<tr> <td>9</td><td>+4</td> <td><span class="dice"><span>5к6</span></span></td><td><span class="tableAbility">Умение архетипа плута</span></td></tr>
+<tr><td>10</td><td>+4</td> <td><span class="dice"><span>5к6</span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
+<tr><td>11</td><td>+4</td> <td><span class="dice"><span>6к6</span></span></td><td><span class="tableAbility">Надёжный талант</span></td></tr>
+<tr><td>12</td><td>+4</td> <td><span class="dice"><span>6к6</span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
+<tr><td>13</td><td>+5</td> <td><span class="dice"><span>7к6</span></span></td><td><span class="tableAbility">Умение архетипа плута</span></td></tr>
+<tr><td>14</td><td>+5</td> <td><span class="dice"><span>7к6</span></span></td><td><span class="tableAbility">Слепое зрение</span></td></tr>
+<tr><td>15</td><td>+5</td> <td><span class="dice"><span>8к6</span></span></td><td><span class="tableAbility">Скользкий ум</span></td></tr>
+<tr><td>16</td><td>+5</td> <td><span class="dice"><span>8к6</span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
+<tr><td>17</td><td>+6</td> <td><span class="dice"><span>9к6</span></span></td><td><span class="tableAbility">Умение архетипа плута</span></td></tr>
+<tr><td>18</td><td>+6</td> <td><span class="dice"><span>9к6</span></span></td><td><span class="tableAbility">Неуловимость</span></td></tr>
+<tr><td>19</td><td>+6</td><td><span class="dice"><span>10к6</span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
+<tr><td>20</td><td>+6</td><td><span class="dice"><span>10к6</span></span></td><td><span class="tableAbility">Удача</span></td></tr>
 </tbody></table>
 `,
   additionalInfo: `
-<div bis_skin_checked="1" class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение<span class="spoiler_head_button">свернуть</span></h3><span class="spoiler_body">
+<div bis_skin_checked="1" class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение</h3><span class="spoiler_body">
 <h4 class="smallSectionTitle">ХИТЫ</h4>
-<p><strong>Кость Хитов: </strong><span class="dice"><span>1к8</span><span></span></span> за каждый уровень плута</p>
+<p><strong>Кость Хитов: </strong><span class="dice"><span>1к8</span></span> за каждый уровень плута</p>
 <p><strong>Хиты на 1 уровне:</strong> 8 + модификатор Телосложения</p>
-<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к8</span><span></span></span> (или 5) + модификатор Телосложения (суммарно минимум 1) за каждый уровень плута после первого</p>
+<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к8</span></span> (или 5) + модификатор Телосложения (суммарно минимум 1) за каждый уровень плута после первого</p>
 <br/>
 <h4 class="smallSectionTitle">ВЛАДЕНИЕ</h4>
 <p><strong>Доспехи: </strong><span class="additionalAbility">Лёгкие доспехи</span></p>
@@ -47,11 +47,11 @@ const details = {
 <p>Вы начинаете со следующим снаряжением в дополнение к снаряжению, полученному за вашу предысторию:</p>
 <ul>
 <li>а) <span class="additionalAbility">рапира</span> или б) <span class="additionalAbility">короткий меч</span></li>
-<li>а) <span class="additionalAbility">короткий лук</span> и колчан с <a href="https://dnd.su/articles/inventory/98-equipment/#equipment.arrow" target="_blank">20 стрелами</a> или б) <span class="additionalAbility">короткий меч</span></li>
+<li>а) <span class="additionalAbility">короткий лук</span> и колчан с <span class="additionalAbility">20 стрелами</span> или б) <span class="additionalAbility">короткий меч</span></li>
 <li>а) <span class="tooltipstered tooltip" tooltip-for="item.pack.burglar">набор взломщика</span> или б) <span class="tooltipstered tooltip" tooltip-for="item.pack.dungeoneer">набор исследователя подземелий</span> или в) <span class="tooltipstered tooltip" tooltip-for="item.pack.explorer">набор путешественника</span></li>
 <li><span class="additionalAbility">Кожаная броня</span>, два <span class="additionalAbility">кинжала</span>, <span class="tooltipstered tooltip" tooltip-for="tools.thief">воровские инструменты</span></li>
 </ul>
-<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>4к4 × 10</span><span></span></span> зм для покупки снаряжения.</p>
+<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>4к4 × 10</span></span> зм для покупки снаряжения.</p>
 </span></div>
 `,
   explanations: {
@@ -65,7 +65,7 @@ const details = {
     "скрытая атака": `
 	<h3 class="underlined"><span id="feature.sneak-attack">СКРЫТАЯ АТАКА</span></h3>
 	<p><em>1-й уровень, умение плута</em></p>
-	<p>Вы знаете, как точно наносить удар и использовать отвлечение врага. Один раз в ход вы можете причинить дополнительные <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к6</span><span></span></span> урона одному из существ, по которому вы попали атакой, совершённой с преимуществом. Атака должна использовать дальнобойное оружие или оружие со свойством «<span tooltip-for="weapon.finesse" class="tooltipstered tooltip">фехтовальное</span>». Вам не нужно иметь преимущество при броске атаки, если другой враг цели находится в пределах 5 футов от неё. Этот враг не должен быть <span tooltip-for="condition.incapacitated" class="tooltipstered tooltip">недееспособным</span>, и у вас не должно быть помехи для броска атаки.</p>
+	<p>Вы знаете, как точно наносить удар и использовать отвлечение врага. Один раз в ход вы можете причинить дополнительные <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к6</span></span> урона одному из существ, по которому вы попали атакой, совершённой с преимуществом. Атака должна использовать дальнобойное оружие или оружие со свойством «<span tooltip-for="weapon.finesse" class="tooltipstered tooltip">фехтовальное</span>». Вам не нужно иметь преимущество при броске атаки, если другой враг цели находится в пределах 5 футов от неё. Этот враг не должен быть <span tooltip-for="condition.incapacitated" class="tooltipstered tooltip">недееспособным</span>, и у вас не должно быть помехи для броска атаки.</p>
 	<p>Дополнительный урон увеличивается, когда вы получаете уровни в этом классе, как показано в колонке «скрытая атака».</p>
 	<br>
 	`,

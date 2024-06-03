@@ -72,11 +72,11 @@ const details = {
 </tbody></table>
 `,
   additionalInfo: `
-<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение<span class="spoiler_head_button">свернуть</span></h3><span class="spoiler_body">
+<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение</h3><span class="spoiler_body">
 <h4 class="smallSectionTitle">ХИТЫ</h4>
-<p><strong>Кость Хитов: </strong><span class="dice"><span>1к8</span><span></span></span> за каждый уровень друида</p>
+<p><strong>Кость Хитов: </strong><span class="dice"><span>1к8</span></span> за каждый уровень друида</p>
 <p><strong>Хиты на 1 уровне:</strong> 8 + ваш модификатор Телосложения</p>
-<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к8</span><span></span></span> (или 5) + модификатор Телосложения (суммарно минимум 1) за каждый уровень друида после первого</p>
+<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к8</span></span> (или 5) + модификатор Телосложения (суммарно минимум 1) за каждый уровень друида после первого</p>
 <h4 class="smallSectionTitle">ВЛАДЕНИЕ</h4>
 <p><strong>Доспехи:</strong> <span class="additionalAbility">Лёгкие доспехи</span>, <span class="additionalAbility">средние доспехи</span>, <span class="additionalAbility">щиты</span> (друиды не носят доспехи и щиты из металла)</p>
 <p><strong>Оружие:</strong> <span class="additionalAbility">Боевые посохи</span>, <span class="additionalAbility">булавы</span>, <span class="additionalAbility">дротики</span>, <span class="additionalAbility">дубинки</span>, <span class="additionalAbility">кинжалы</span>, <span class="additionalAbility">копья</span>, <span class="additionalAbility">метательные копья</span>, <span class="additionalAbility">пращи</span>, <span class="additionalAbility">серпы</span>, <span class="additionalAbility">скимитары</span></p>
@@ -88,8 +88,8 @@ const details = {
 <ul>
 <li>а) <span class="additionalAbility">деревянный щит</span> или б) одно <span class="additionalAbility">простое оружие</span></li>
 <li>а) <span class="additionalAbility">скимитар</span> или б) <span class="additionalAbility">простое рукопашное оружие</span></li>
-<li><span class="additionalAbility">Кожаный доспех</span>, <span class="tooltipstered tooltip" tooltip-for="item.pack.explorer">набор путешественника</span> и <span class="additionalAbility">фокусировка друидов</span><a href="https://dnd.su/articles/inventory/98-equipment/#focus.druidic" target="_blank"></a></li></ul>
-<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>2к4 × 10</span><span></span></span> зм для покупки снаряжения.</p>
+<li><span class="additionalAbility">Кожаный доспех</span>, <span class="tooltipstered tooltip" tooltip-for="item.pack.explorer">набор путешественника</span> и <span class="additionalAbility">фокусировка друидов</span></li></ul>
+<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>2к4 × 10</span></span> зм для покупки снаряжения.</p>
 </span></div>
 `,
   explanations: {
@@ -117,7 +117,7 @@ const details = {
 	<p>Вы можете сотворить заклинание друида как ритуал, если у этого заклинания есть ключевое слово «ритуал», и оно подготовлено вами.</p>
 	<h4 class="smallSectionTitle">Фокусировка заклинания</h4>
 	<p>Вы можете использовать фокусировку друидов в качестве заклинательной фокусировки для заклинаний друида.</p>
-	<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">СВЯЩЕННЫЕ РАСТЕНИЯ<span class="spoiler_head_button">свернуть</span></h3><span class="spoiler_body">
+	<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">СВЯЩЕННЫЕ РАСТЕНИЯ</h3><span class="spoiler_body">
 	<p>Некоторые растения считаются священными у друидов. В частности, это берёза, бузина, дуб, ива, можжевельник, ольха, омела, орех, падуб (он же остролист), рябина, тис и ясень. Эти растения часто используются в изготовлении друидической фокусировки, которая может включать, например, ветви дуба или тиса, побеги омелы.</p>
 	<p>Древесина подходит и для других изделий, включая оружие и щиты. Тис связан со смертью и перерождением, так что из него делают рукояти скимитаров и серпов. Ясень символизирует жизнь, а дуб — силу: из них получаются замечательные древки, дубины, боевые посохи и щиты. Ольху считают растением воздуха и делают из неё метательное оружие, например, дротики и метательные копья. Друиды из мест, которым эти растения чужды, обращаются к местным видам. Например, пустынный друид может почитать юкку и кактус.</p>
 	</span></div>

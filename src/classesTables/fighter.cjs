@@ -29,10 +29,10 @@ const details = {
 </tbody></table>
 `,
   additionalInfo: `
-<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение<span class="spoiler_head_button">свернуть</span></h3><span class="spoiler_body">
-<h4 class="smallSectionTitle">ХИТЫ</h4><p><strong>Кость Хитов:</strong> <span class="dice"><span>1к10</span><span></span></span> за каждый уровень воина</p>
+<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение</h3><span class="spoiler_body">
+<h4 class="smallSectionTitle">ХИТЫ</h4><p><strong>Кость Хитов:</strong> <span class="dice"><span>1к10</span></span> за каждый уровень воина</p>
 <p><strong>Хиты на 1 уровне:</strong> 10 + модификатор Телосложения</p>
-<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к10</span><span></span></span> (или 6) + модификатор Телосложения (суммарно минимум 1) за каждый уровень воина после первого</p>
+<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к10</span></span> (или 6) + модификатор Телосложения (суммарно минимум 1) за каждый уровень воина после первого</p>
 <br/><h4 class="smallSectionTitle">ВЛАДЕНИЕ</h4><p><strong>Доспехи:</strong> <span class="additionalAbility">Все доспехи</span>, <span class="additionalAbility">щиты</span></p>
 <p><strong>Оружие:</strong> <span class="additionalAbility">Простое оружие</span>, <span class="additionalAbility">воинское оружие</span></p>
 <p><strong>Инструменты:</strong> Нет</p>
@@ -40,19 +40,19 @@ const details = {
 <p><strong>Навыки:</strong> Выберите два навыка из следующих: <span class="tooltipstered tooltip" tooltip-for="skill.acrobatics">Акробатика</span>, <span class="tooltipstered tooltip" tooltip-for="skill.athletics">Атлетика</span>, <span class="tooltipstered tooltip" tooltip-for="skill.perception">Восприятие</span>, <span class="tooltipstered tooltip" tooltip-for="skill.survival">Выживание</span>, <span class="tooltipstered tooltip" tooltip-for="skill.intimidation">Запугивание</span>, <span class="tooltipstered tooltip" tooltip-for="skill.history">История</span>, <span class="tooltipstered tooltip" tooltip-for="skill.insight">Проницательность</span>, <span class="tooltipstered tooltip" tooltip-for="skill.animalHandling">Уход за животными</span></p>
 <br/><h4 class="smallSectionTitle">СНАРЯЖЕНИЕ</h4><p>Вы начинаете со следующим снаряжением в дополнение к снаряжению, полученному за вашу предысторию:</p>
 <ul>
-<li>а) <span class="additionalAbility">кольчуга</span> или б) <span class="additionalAbility">кожаный доспех</span>, <span class="additionalAbility">длинный лук</span> и <a href="https://dnd.su/articles/inventory/98-equipment/#equipment.arrow" target="_blank">20 стрел</a></li>
+<li>а) <span class="additionalAbility">кольчуга</span> или б) <span class="additionalAbility">кожаный доспех</span>, <span class="additionalAbility">длинный лук</span> и <span class="additionalAbility">20 стрел</span></li>
 <li>а) <span class="additionalAbility">воинское оружие</span> и <span class="additionalAbility">щит</span> или б) два <span class="additionalAbility">воинских оружия</span></li>
-<li>а) <span class="additionalAbility">лёгкий арбалет</span> и <a href="https://dnd.su/articles/inventory/98-equipment/#equipment.bolt" target="_blank">20 болтов</a> или б) два <span class="additionalAbility">ручных топора</span></li>
+<li>а) <span class="additionalAbility">лёгкий арбалет</span> и <span class="additionalAbility">20 болтов</span> или б) два <span class="additionalAbility">ручных топора</span></li>
 <li>а) <span class="tooltipstered tooltip" tooltip-for="item.pack.dungeoneer">набор исследователя подземелий</span> или б) <span class="tooltipstered tooltip" tooltip-for="item.pack.explorer">набор путешественника</span></li>
 </ul>
-<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>5к4 × 10</span><span></span></span> зм для покупки снаряжения.</p>
+<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>5к4 × 10</span></span> зм для покупки снаряжения.</p>
 </span></div>
 `,
   explanations: {
     "второе дыхание": `
 <h3 class="underlined"><span id="feature.second-wind">ВТОРОЕ ДЫХАНИЕ</span></h3>
 <p><em>1-й уровень, умение воина</em></p>
-	<p>Вы обладаете ограниченным источником выносливости, которым можете воспользоваться, чтобы уберечь себя. В свой ход вы можете бонусным действием восстановить хиты в размере <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к10</span><span></span></span> + ваш уровень воина.</p>
+	<p>Вы обладаете ограниченным источником выносливости, которым можете воспользоваться, чтобы уберечь себя. В свой ход вы можете бонусным действием восстановить хиты в размере <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к10</span></span> + ваш уровень воина.</p>
 	<p>Использовав это умение, вы должны завершить короткий либо продолжительный отдых, чтобы получить возможность использовать его снова.</p>
 <br>`,
     "всплеск действий": `

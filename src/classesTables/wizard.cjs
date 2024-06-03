@@ -72,10 +72,10 @@ const details = {
 </tbody></table>
 `,
   additionalInfo: `
-<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение<span class="spoiler_head_button">свернуть</span></h3><span class="spoiler_body">
-<h4 class="smallSectionTitle">ХИТЫ</h4><p><strong>Кость Хитов: </strong><span class="dice"><span>1к6</span><span></span></span> за каждый уровень волшебника</p>
+<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение</h3><span class="spoiler_body">
+<h4 class="smallSectionTitle">ХИТЫ</h4><p><strong>Кость Хитов: </strong><span class="dice"><span>1к6</span></span> за каждый уровень волшебника</p>
 <p><strong>Хиты на 1 уровне: </strong>6 + ваш модификатор Телосложения</p>
-<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к6</span><span></span></span> (или 4) + модификатор Телосложения (суммарно минимум 1) за каждый уровень волшебника после первого</p>
+<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к6</span></span> (или 4) + модификатор Телосложения (суммарно минимум 1) за каждый уровень волшебника после первого</p>
 <br/><h4 class="smallSectionTitle" style="">ВЛАДЕНИЕ</h4><p style=""><strong>Доспехи: </strong>Нет</p>
 <p style=""><strong style="">Оружие: </strong><a href="https://dnd.su/articles/inventory/96-arms/#weapon.dagger" style="" target="_blank">Кинжалы</a>, <a href="https://dnd.su/articles/inventory/96-arms/#weapon.dart" style="" target="_blank">дротики</a>, <a href="https://dnd.su/articles/inventory/96-arms/#weapon.sling" style="" target="_blank">пращи</a>, <span class="additionalAbility">боевые посохи</span>, <span class="additionalAbility">лёгкие арбалеты</span></p>
 <p style=""><strong>Инструменты:</strong> Нет</p>
@@ -88,7 +88,7 @@ const details = {
 <li>а) <span class="tooltipstered tooltip" tooltip-for="item.pack.scholar">набор учёного</span> или б) <span class="tooltipstered tooltip" style="" tooltip-for="item.pack.explorer">набор путешественника</span></li>
 <li><a href="https://dnd.su/articles/inventory/98-equipment/#spellbook" style="" target="_blank">Книга заклинаний</a></li>
 </ul>
-<p style="">Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>4к4 × 10</span><span></span></span> зм для покупки снаряжения.</p>
+<p style="">Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>4к4 × 10</span></span> зм для покупки снаряжения.</p>
 </span></div>
 `,
   explanations: {
@@ -98,7 +98,7 @@ const details = {
 <p style="">Являясь учеником тайной магии, вы обладаете книгой, содержащей заклинания, показывающие первые проблески вашей истинной силы. Вы найдёте список заклинаний, доступных волшебнику в этом разделе: <a href="/spells/?search=&amp;class=21" style="">заклинания волшебника</a>. Так же правила по использованию заклинаний есть в этой статье: <a href="/articles/mechanics/157-spellcasting/"><strong style=""><em> использование заклинаний</em></strong></a>.</p>
 <h4 class="smallSectionTitle" style="">Заговоры (заклинания 0-го уровня)</h4><p style="">На 1-м уровне вы знаете три <a href="/spells/?search=&amp;level=0&amp;class=21" style="">заговора</a> на ваш выбор из списка заклинаний волшебника. Вы узнаёте дополнительные заговоры волшебника на более высоких уровнях, как показано в колонке «Известные заговоры».</p>
 <h4 class="smallSectionTitle" style="">Книга заклинаний</h4><p style="">На 1-м уровне у вас есть книга заклинаний, содержащая шесть заклинаний волшебника 1-го уровня по вашему выбору. Ваша книга заклинаний является хранилищем известных вам заклинаний волшебника, за исключением заговоров, которые вы всегда помните.</p>
-<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head" style="">ВАША КНИГА ЗАКЛИНАНИЙ<span class="spoiler_head_button">свернуть</span></h3>
+<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head" style="">ВАША КНИГА ЗАКЛИНАНИЙ</h3>
 	<p style="" class="spoiler_body">Заклинания, которые вы добавляете в свою книгу заклинаний, получая уровни, отражают исследования, которые вы проводите, а также интеллектуальные прорывы в изучении природы вселенной, сделанные вами. Вы также можете найти другие заклинания во время приключений. Вы можете обнаружить заклинание, записанное на свитке в сундуке злого волшебника, или, например, в пыльном фолианте в древней библиотеке.</p>
 <p style=""><strong><em style="">Копирование заклинания в книгу.</em></strong> Если вы находите заклинание волшебника 1-го или более высокого уровня, вы можете добавить его в свою книгу заклинаний, если оно имеет такой уровень, заклинания которого вы можете подготавливать, и у вас имеется свободное время для его расшифровки и копирования.</p>
 <p style="">Копирование заклинания в вашу книгу включает воспроизведение основной формы заклинания, а также расшифровку уникальной системы обозначений, используемой волшебником, который записал его. Вы должны подобрать нужные жесты и звуки, после чего записываете его в свою книгу заклинаний, используя собственные обозначения.</p>

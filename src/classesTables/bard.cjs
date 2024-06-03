@@ -73,15 +73,15 @@ const details = {
 </tbody></table>
 `,
   additionalInfo: `
-<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение<span class="spoiler_head_button">свернуть</span></h3><span class="spoiler_body">
+<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение</h3><span class="spoiler_body">
 <h4 class="smallSectionTitle" style="">ХИТЫ</h4>
-<p style=""><strong>Кость Хитов:</strong> <span class="dice"><span>1к8</span><span></span></span> за каждый уровень барда</p>
+<p style=""><strong>Кость Хитов:</strong> <span class="dice"><span>1к8</span></span> за каждый уровень барда</p>
 <p style=""><strong>Хиты на 1 уровне:</strong> 8 + модификатор Телосложения</p>
-<p style=""><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к8</span><span></span></span> (или 5) + модификатор Телосложения (суммарно минимум 1) за каждый уровень барда после первого</p>
+<p style=""><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к8</span></span> (или 5) + модификатор Телосложения (суммарно минимум 1) за каждый уровень барда после первого</p>
 <br/>
 <h4 class="smallSectionTitle">ВЛАДЕНИЕ</h4>
 <p><strong>Доспехи:</strong> <span class="additionalAbility">Лёгкие доспехи</span></p>
-<p><strong>Оружие: </strong><span class="additionalAbility">Простое оружие</span><a href="https://dnd.su/articles/inventory/96-arms/#weapon.simple" target="_blank"></a>, <span class="additionalAbility">длинные мечи</span>, <span class="additionalAbility">короткие мечи</span>, <span class="additionalAbility">рапиры</span>, <span class="additionalAbility">ручные арбалеты</span></p>
+<p><strong>Оружие: </strong><span class="additionalAbility">Простое оружие</span>, <span class="additionalAbility">длинные мечи</span>, <span class="additionalAbility">короткие мечи</span>, <span class="additionalAbility">рапиры</span>, <span class="additionalAbility">ручные арбалеты</span></p>
 <p><strong>Инструменты:</strong> Три <a href="/articles/inventory/100-tools/#Музыкальные">музыкальных инструмента</a> на ваш выбор</p>
 <p><strong>Спасброски:</strong> Ловкость, Харизма</p>
 <p><strong>Навыки:</strong> Выберите три любых</p>
@@ -94,7 +94,7 @@ const details = {
 <li>а) <span class="additionalAbility">лютня</span> или б) любой другой <span class="tooltipstered tooltip" tooltip-for="tools.music">музыкальный инструмент</span></li>
 <li><span class="additionalAbility">Кожаный доспех</span> и <span class="additionalAbility">кинжал</span></li>
 </ul>
-<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>5к4×10</span><span></span></span> зм для покупки снаряжения.</p>
+<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>5к4×10</span></span> зм для покупки снаряжения.</p>
 </span></div>
 `,
   explanations: {
@@ -138,8 +138,8 @@ const details = {
     "песнь отдыха": `
 <h3 class="underlined"><span id="feature.song-of-rest">ПЕСНЬ ОТДЫХА</span></h3>
 <p><em>2-й уровень, умение барда</em></p>
-<p>Вы с помощью успокаивающей музыки или речей можете помочь своим раненым союзникам восстановить их силы во время короткого отдыха. Если вы или любые союзные существа, способные слышать ваше исполнение, восстанавливаете хиты в конце короткого отдыха, используя Кости Хитов, каждое потратившее Кость Хитов существо восстанавливает дополнительно <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к6</span><span></span></span> хитов.</p>
-<p>Количество дополнительно восстанавливаемых хитов растёт с вашим уровнем в этом классе: <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span><span></span></span> на 9-м уровне, <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к10</span><span></span></span> на 13 уровне и <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к12</span><span></span></span> на 17 уровне.</p>
+<p>Вы с помощью успокаивающей музыки или речей можете помочь своим раненым союзникам восстановить их силы во время короткого отдыха. Если вы или любые союзные существа, способные слышать ваше исполнение, восстанавливаете хиты в конце короткого отдыха, используя Кости Хитов, каждое потратившее Кость Хитов существо восстанавливает дополнительно <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к6</span></span> хитов.</p>
+<p>Количество дополнительно восстанавливаемых хитов растёт с вашим уровнем в этом классе: <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span></span> на 9-м уровне, <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к10</span></span> на 13 уровне и <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к12</span></span> на 17 уровне.</p>
 
 <div class="TCE-feature-on">
 <br>

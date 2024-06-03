@@ -71,10 +71,10 @@ const details = {
 </tbody></table>
 `,
   additionalInfo: `
-<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение<span class="spoiler_head_button">свернуть</span></h3><span class="spoiler_body">
-<h4 class="smallSectionTitle">ХИТЫ</h4><p><strong>Кость Хитов: </strong><span class="dice"><span>1к12</span><span></span></span> за каждый уровень варвара</p>
+<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение</h3><span class="spoiler_body">
+<h4 class="smallSectionTitle">ХИТЫ</h4><p><strong>Кость Хитов: </strong><span class="dice"><span>1к12</span></span> за каждый уровень варвара</p>
 <p><strong>Хиты на 1 уровне:</strong> 12 + модификатор Телосложения</p>
-<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к12</span><span></span></span> (или 7) + модификатор Телосложения (суммарно минимум 1) за каждый уровень варвара после первого</p>
+<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к12</span></span> (или 7) + модификатор Телосложения (суммарно минимум 1) за каждый уровень варвара после первого</p>
 <br/>
 <h4 class="smallSectionTitle">ВЛАДЕНИЕ</h4><p><strong>Доспехи:</strong> <span class="additionalAbility">Лёгкие доспехи</span>, <span class="additionalAbility">средние доспехи</span>, <span class="additionalAbility">щиты</span></p>
 <p><strong>Оружие:</strong> <span class="additionalAbility">Простое оружие</span>, <span class="additionalAbility">воинское оружие</span></p>
@@ -88,7 +88,7 @@ const details = {
 <li>а) два <span class="additionalAbility">ручных топора</span> или б) любое <span class="additionalAbility">простое оружие</span></li>
 <li><span><span class="tooltipstered tooltip" tooltip-for="item.pack.explorer">Набор путешественника</span> и четыре <span class="additionalAbility">метательных копья</span></span></li>
 </ul>
-<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>2к4×10</span><span></span></span> зм для покупки снаряжения.</p>
+<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>2к4×10</span></span> зм для покупки снаряжения.</p>
 </span></div>
 `,
   explanations: {

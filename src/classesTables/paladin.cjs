@@ -72,10 +72,10 @@ const details = {
 </table>
 `,
   additionalInfo: `
-<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение<span class="spoiler_head_button">свернуть</span></h3><span class="spoiler_body">
-<h4 class="smallSectionTitle">ХИТЫ </h4><p><strong>Кость Хитов:</strong> <span class="dice"><span>1к10</span><span></span></span> за каждый уровень паладина</p>
+<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение</h3><span class="spoiler_body">
+<h4 class="smallSectionTitle">ХИТЫ </h4><p><strong>Кость Хитов:</strong> <span class="dice"><span>1к10</span></span> за каждый уровень паладина</p>
 <p><strong>Хиты на 1 уровне:</strong> 10 + модификатор Телосложения</p>
-<p><strong>Хиты на следующих уровнях: </strong><span class="dice"><span>1к10</span><span></span></span> (или 6) + модификатор Телосложения (суммарно минимум 1) за каждый уровень паладина после первого</p>
+<p><strong>Хиты на следующих уровнях: </strong><span class="dice"><span>1к10</span></span> (или 6) + модификатор Телосложения (суммарно минимум 1) за каждый уровень паладина после первого</p>
 <br/><h4 class="smallSectionTitle">ВЛАДЕНИЕ </h4><p><strong>Доспехи:</strong> <span class="additionalAbility">Все виды доспехов</span>, <span class="additionalAbility">щиты</span></p>
 <p><strong>Оружие: </strong><span class="additionalAbility">Простое оружие</span>, <span class="additionalAbility">воинское оружие</span></p>
 <p><strong>Инструменты:</strong> нет</p>
@@ -88,7 +88,7 @@ const details = {
 <li>а) <span class="tooltipstered tooltip" tooltip-for="item.pack.priest">набор священника</span> или б) <span class="tooltipstered tooltip" tooltip-for="item.pack.explorer">набор путешественника</span></li>
 <li><span class="additionalAbility">Кольчуга</span> и <span class="additionalAbility">священный символ</span></li>
 </ul>
-<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>5к4×10</span><span></span></span> зм для покупки снаряжения.</p>
+<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>5к4×10</span></span> зм для покупки снаряжения.</p>
 </span></div>
 `,
   explanations: {
@@ -117,7 +117,7 @@ const details = {
 	<p>Вы узнаёте два <a href="/spells/?search=&amp;level=0&amp;class=13" target="_blank" style="font-style: normal;">заговора</a> по вашему выбору из списка заклинаний жреца. Для вас они считаются заклинаниями паладина, а базовой характеристикой для этих заклинаний является ваша Харизма. Каждый раз, когда вы получаете уровень в этом классе, вы можете заменить один из заговоров на другой из списка заклинаний жреца.</p>
 	<h4 class="smallSectionTitle">Перехват</h4>
 	<p><em><span tooltip-for="option.TCE" class="tooltipstered tooltip">Опциональный</span> вариант боевого стиля</em></p>
-	<p>Когда существо, которое вы можете видеть, попадает атакой по цели в пределах 5 футов от вас (но не по вам), вы можете реакцией уменьшить урон, получаемый целью, на количество, равное <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к10</span><span></span></span> + ваш бонус мастерства (вплоть до 0 урона). Чтобы использовать эту реакцию, вы должны держать в руках щит либо простое или воинское оружие.</p>
+	<p>Когда существо, которое вы можете видеть, попадает атакой по цели в пределах 5 футов от вас (но не по вам), вы можете реакцией уменьшить урон, получаемый целью, на количество, равное <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к10</span></span> + ваш бонус мастерства (вплоть до 0 урона). Чтобы использовать эту реакцию, вы должны держать в руках щит либо простое или воинское оружие.</p>
 	<h4 class="smallSectionTitle">Сражение вслепую</h4>
 	<p><em><span tooltip-for="option.TCE" class="tooltipstered tooltip">Опциональный</span> вариант боевого стиля</em></p>
 	<p>Вы получаете <span tooltip-for="vision.blindsight" class="tooltipstered tooltip">слепое зрение</span> в пределах 10 футов. В пределах этой дистанции вы можете видеть всё, что не находится за <span tooltip-for="cover.full" class="tooltipstered tooltip">полным укрытием</span>, даже если вы <span tooltip-for="condition.blinded" class="tooltipstered tooltip">ослеплены</span> или находитесь в <span tooltip-for="light.darkness" class="tooltipstered tooltip">темноте</span>. Более того, вы можете увидеть <span tooltip-for="condition.invisible" class="tooltipstered tooltip">невидимое</span> существо в пределах этой дистанции, если только оно не преуспело в попытке спрятаться от вас.</p>
@@ -149,7 +149,7 @@ const details = {
 	<br>`,
     "божественная кара": `
 	<h3 class="underlined"><span id="feature.divine-smite">БОЖЕСТВЕННАЯ КАРА</span></h3><p><em>2-й уровень, умение паладина</em></p>
-	<p>Если вы попадаете по существу рукопашной атакой оружием, вы можете потратить одну ячейку заклинания любого своего класса для причинения цели урона излучением, который добавится к урону от оружия. Дополнительный урон равен <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>2к8</span><span></span></span> за ячейку 1-го уровня, плюс <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span><span></span></span> за каждый уровень ячейки выше первого, до максимума <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>5к8</span><span></span></span>. Если цель — Нежить или Исчадие, урон увеличивается на <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span><span></span></span> с максимумом <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>6к8</span><span></span></span>.</p>
+	<p>Если вы попадаете по существу рукопашной атакой оружием, вы можете потратить одну ячейку заклинания любого своего класса для причинения цели урона излучением, который добавится к урону от оружия. Дополнительный урон равен <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>2к8</span></span> за ячейку 1-го уровня, плюс <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span></span> за каждый уровень ячейки выше первого, до максимума <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>5к8</span></span>. Если цель — Нежить или Исчадие, урон увеличивается на <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span></span> с максимумом <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>6к8</span></span>.</p>
 	<br>`,
     "божественное здоровье": `
 	<h3 class="underlined"><span id="feature.divine-health">БОЖЕСТВЕННОЕ ЗДОРОВЬЕ</span></h3><p><em>3-й уровень, умение паладина</em></p>
@@ -194,7 +194,7 @@ const details = {
 	<br>`,
     "улучшенная божественная кара": `
 	<h3 class="underlined"><span id="feature.improved-divine-smite">УЛУЧШЕННАЯ БОЖЕСТВЕННАЯ КАРА</span></h3><p><em>11-й уровень, умение паладина</em></p>
-	<p>Вы проникаетесь праведной мощью, что даёт всем вашим ударам рукопашным оружием божественную силу. Каждый раз, когда вы попадаете по существу рукопашным оружием, это существо получает дополнительные <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span><span></span></span> урона излучением.</p>
+	<p>Вы проникаетесь праведной мощью, что даёт всем вашим ударам рукопашным оружием божественную силу. Каждый раз, когда вы попадаете по существу рукопашным оружием, это существо получает дополнительные <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span></span> урона излучением.</p>
 	<br>`,
     "очищающее касание": `
 	<h3 class="underlined"><span id="feature.cleansing-touch">ОЧИЩАЮЩЕЕ КАСАНИЕ</span></h3><p><em>14-й уровень, умение паладина</em></p>

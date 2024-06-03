@@ -8,56 +8,56 @@ const details = {
 <td><span class="long">Скорость без<br/>доспехов</span><span class="short tooltip tooltipstered">бд</span></td>
 <td>Умения</td>
 </tr>
-<tr><td>1</td><td>+2</td><td><span class="dice"><span>1к4</span><span></span></span></td><td>—</td><td>—</td>
+<tr><td>1</td><td>+2</td><td><span class="dice"><span>1к4</span></span></td><td>—</td><td>—</td>
 <td><span class="tableAbility">Защита без доспехов</span>, <span class="tableAbility">Боевые искусства</span></td></tr>
-<tr><td>2</td><td>+2</td><td><span class="dice"><span>1к4</span><span></span></span></td><td>2</td><td>+10 футов</td>
+<tr><td>2</td><td>+2</td><td><span class="dice"><span>1к4</span></span></td><td>2</td><td>+10 футов</td>
 <td><span class="tableAbility">Движение без доспехов</span>, <span class="tableAbility">Ци</span>, <span class="tableAbility">Выбранное оружие</span></td></tr>
-<tr><td>3</td><td>+2</td><td><span class="dice"><span>1к4</span><span></span></span></td><td>3</td><td>+10 футов</td>
+<tr><td>3</td><td>+2</td><td><span class="dice"><span>1к4</span></span></td><td>3</td><td>+10 футов</td>
 <td><span class="tableAbility">Монастырская традиция</span>, <span class="tableAbility">Отражение снарядов</span>, <a href="#feature.ki-fueled-attack">Атака, наделённая ци</a></td></tr>
-<tr><td>4</td><td>+2</td><td><span class="dice"><span>1к4</span><span></span></span></td><td>4</td><td>+10 футов</td>
+<tr><td>4</td><td>+2</td><td><span class="dice"><span>1к4</span></span></td><td>4</td><td>+10 футов</td>
 <td><span class="tableAbility">Медленное падение</span>, <span class="tableAbility">Увеличение характеристик</span>, <span class="tableAbility">Ускоренное исцеление</span></td></tr>
-<tr><td>5</td><td>+3</td><td><span class="dice"><span>1к6</span><span></span></span></td><td>5</td><td>+10 футов</td>
+<tr><td>5</td><td>+3</td><td><span class="dice"><span>1к6</span></span></td><td>5</td><td>+10 футов</td>
 <td><span class="tableAbility">Дополнительная атака</span>, <span class="tableAbility">Ошеломляющий удар</span>, <span class="tableAbility">Фокусировка на цели</span></td></tr>
-<tr><td>6</td><td>+3</td><td><span class="dice"><span>1к6</span><span></span></span></td><td>6</td><td>+15 футов</td>
+<tr><td>6</td><td>+3</td><td><span class="dice"><span>1к6</span></span></td><td>6</td><td>+15 футов</td>
 <td><span class="tableAbility">Умение монастырской традиции</span>, <span class="tableAbility">Энергетические удары</span></td></tr>
-<tr><td>7</td><td>+3</td><td><span class="dice"><span>1к6</span><span></span></span></td><td>7</td><td>+15 футов</td>
+<tr><td>7</td><td>+3</td><td><span class="dice"><span>1к6</span></span></td><td>7</td><td>+15 футов</td>
 <td><span class="tableAbility">Спокойствие разума</span>, <span class="tableAbility">Увёртливость</span></td></tr>
-<tr><td>8</td><td>+3</td><td><span class="dice"><span>1к6</span><span></span></span></td><td>8</td><td>+15 футов</td>
+<tr><td>8</td><td>+3</td><td><span class="dice"><span>1к6</span></span></td><td>8</td><td>+15 футов</td>
 <td><span class="tableAbility">Увеличение характеристик</span></td></tr>
-<tr><td>9</td><td>+4</td><td><span class="dice"><span>1к6</span><span></span></span></td><td>9</td><td>+15 футов</td>
+<tr><td>9</td><td>+4</td><td><span class="dice"><span>1к6</span></span></td><td>9</td><td>+15 футов</td>
 <td><span class="tableAbility">Улучшенное движение без доспехов</span></td></tr>
-<tr><td>10</td><td>+4</td><td><span class="dice"><span>1к6</span><span></span></span></td><td>10</td><td>+20 футов</td>
+<tr><td>10</td><td>+4</td><td><span class="dice"><span>1к6</span></span></td><td>10</td><td>+20 футов</td>
 <td><span class="tableAbility">Чистота тела</span></td></tr>
-<tr><td>11</td><td>+4</td><td><span class="dice"><span>1к8</span><span></span></span></td><td>11</td><td>+20 футов</td>
+<tr><td>11</td><td>+4</td><td><span class="dice"><span>1к8</span></span></td><td>11</td><td>+20 футов</td>
 <td><span class="tableAbility">Умение монастырской традиции</span></td></tr>
-<tr><td>12</td><td>+4</td><td><span class="dice"><span>1к8</span><span></span></span></td><td>12</td><td>+20 футов</td>
+<tr><td>12</td><td>+4</td><td><span class="dice"><span>1к8</span></span></td><td>12</td><td>+20 футов</td>
 <td><span class="tableAbility">Увеличение характеристик</span></td></tr>
-<tr><td>13</td><td>+5</td><td><span class="dice"><span>1к8</span><span></span></span></td><td>13</td><td>+20 футов</td>
+<tr><td>13</td><td>+5</td><td><span class="dice"><span>1к8</span></span></td><td>13</td><td>+20 футов</td>
 <td><span class="tableAbility">Язык солнца и луны</span></td></tr>
-<tr><td>14</td><td>+5</td><td><span class="dice"><span>1к8</span><span></span></span></td><td>14</td><td>+25 футов</td>
+<tr><td>14</td><td>+5</td><td><span class="dice"><span>1к8</span></span></td><td>14</td><td>+25 футов</td>
 <td><span class="tableAbility">Алмазная душа</span></td></tr>
-<tr><td>15</td><td>+5</td><td><span class="dice"><span>1к8</span><span></span></span></td><td>15</td><td>+25 футов</td>
+<tr><td>15</td><td>+5</td><td><span class="dice"><span>1к8</span></span></td><td>15</td><td>+25 футов</td>
 <td><span class="tableAbility">Безвременное тело</span></td></tr>
-<tr><td>16</td><td>+5</td><td><span class="dice"><span>1к8</span><span></span></span></td><td>16</td><td>+25 футов</td>
+<tr><td>16</td><td>+5</td><td><span class="dice"><span>1к8</span></span></td><td>16</td><td>+25 футов</td>
 <td><span class="tableAbility">Увеличение характеристик</span></td></tr>
-<tr><td>17</td><td>+6</td><td><span class="dice"><span>1к10</span><span></span></span></td><td>17</td><td>+25 футов</td>
+<tr><td>17</td><td>+6</td><td><span class="dice"><span>1к10</span></span></td><td>17</td><td>+25 футов</td>
 <td><span class="tableAbility">Умение монастырской традиции</span></td></tr>
-<tr><td>18</td><td>+6</td><td><span class="dice"><span>1к10</span><span></span></span></td><td>18</td><td>+30 футов</td>
+<tr><td>18</td><td>+6</td><td><span class="dice"><span>1к10</span></span></td><td>18</td><td>+30 футов</td>
 <td><span class="tableAbility">Пустое тело</span></td></tr>
-<tr><td>19</td><td>+6</td><td><span class="dice"><span>1к10</span><span></span></span></td><td>19</td><td>+30 футов</td>
+<tr><td>19</td><td>+6</td><td><span class="dice"><span>1к10</span></span></td><td>19</td><td>+30 футов</td>
 <td><span class="tableAbility">Увеличение характеристик</span></td></tr>
-<tr><td>20</td><td>+6</td><td><span class="dice"><span>1к10</span><span></span></span></td><td>20</td><td>+30 футов</td>
+<tr><td>20</td><td>+6</td><td><span class="dice"><span>1к10</span></span></td><td>20</td><td>+30 футов</td>
 <td><span class="tableAbility">Совершенство</span></td></tr>
 </tbody>
 </table>
 `,
   additionalInfo: `
-<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение<span class="spoiler_head_button">свернуть</span></h3><span class="spoiler_body">
+<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение</h3><span class="spoiler_body">
 <h4 class="smallSectionTitle">ХИТЫ</h4>
 <div>
-<p><strong>Кость Хитов:</strong> <span class="dice"><span>1к8</span><span></span></span> за каждый уровень монаха</p>
+<p><strong>Кость Хитов:</strong> <span class="dice"><span>1к8</span></span> за каждый уровень монаха</p>
 <p><strong>Хиты на 1 уровне:</strong> 8 + модификатор Телосложения</p>
-<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к8</span><span></span></span> (или 5) + модификатор Телосложения (суммарно минимум 1) за каждый уровень монаха после первого</p>
+<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к8</span></span> (или 5) + модификатор Телосложения (суммарно минимум 1) за каждый уровень монаха после первого</p>
 <br/>
 </div>
 <h4 class="smallSectionTitle">ВЛАДЕНИЕ</h4>
@@ -75,9 +75,9 @@ const details = {
 <ul>
 <li>а) <span class="additionalAbility">короткий меч</span> или б) любое <span class="additionalAbility">простое оружие</span></li>
 <li>а) <span class="tooltipstered tooltip" tooltip-for="item.pack.dungeoneer">набор исследователя подземелий</span> или б) <span class="tooltipstered tooltip" tooltip-for="item.pack.explorer">набор путешественника</span></li>
-<li><a href="https://dnd.su/articles/inventory/96-arms/#weapon.dart" target="_blank">10 дротиков</a></li>
+<li><span class="additionalAbility">10 дротиков</span></li>
 </ul>
-<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>5к4</span><span></span></span> зм для покупки снаряжения.</p>
+<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>5к4</span></span> зм для покупки снаряжения.</p>
 </div>
 </span></div>
 `,
@@ -128,7 +128,7 @@ const details = {
 	<br>`,
     "отражение снарядов": `
 	<h3 class="underlined"><span id="feature.deflect-missiles">Отражение снарядов</span></h3><p><em>3-й уровень, умение монаха</em></p>
-	<p>Вы можете реакцией отразить или поймать снаряд, если по вам попали дальнобойной атакой оружием. Если вы делаете это, урон снижается на <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к10</span><span></span></span> + ваш модификатор Ловкости + ваш уровень монаха.</p>
+	<p>Вы можете реакцией отразить или поймать снаряд, если по вам попали дальнобойной атакой оружием. Если вы делаете это, урон снижается на <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к10</span></span> + ваш модификатор Ловкости + ваш уровень монаха.</p>
 	<p>Если вы снизили урон до 0, вы можете поймать снаряд в случае, если он достаточно мал, чтобы держать его одной рукой, и одна из ваших рук свободна. Если вы поймали снаряд с помощью этого умения, вы можете потратить одно очко ци, чтобы частью реакции совершить дальнобойную атаку пойманным оружием или боеприпасом с дистанцией 20/60 футов. Вы совершаете эту атаку с владением, вне зависимости от владения данным оружием, и этот снаряд считается для данной атаки монашеским оружием.</p>
 	<div class="TCE-feature-on"><br>`,
     "атака, наделённая ци": `

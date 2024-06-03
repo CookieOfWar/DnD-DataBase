@@ -72,11 +72,11 @@ const details = {
 </tbody></table>
 `,
   additionalInfo: `
-<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение<span class="spoiler_head_button">свернуть</span></h3><span class="spoiler_body">
+<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение</h3><span class="spoiler_body">
 <h4 class="smallSectionTitle">ХИТЫ</h4>
-<p><strong>Кость Хитов:</strong> <span class="dice"><span>1к10</span><span></span></span> за каждый уровень следопыта</p>
+<p><strong>Кость Хитов:</strong> <span class="dice"><span>1к10</span></span> за каждый уровень следопыта</p>
 <p><strong>Хиты на 1 уровне:</strong> 10 + модификатор Телосложения</p>
-<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к10</span><span></span></span> (или 6) + модификатор Телосложения (суммарно минимум 1) за каждый уровень следопыта после первого</p>
+<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к10</span></span> (или 6) + модификатор Телосложения (суммарно минимум 1) за каждый уровень следопыта после первого</p>
 <br/>
 <h4 class="smallSectionTitle">ВЛАДЕНИЕ</h4>
 <p><strong>Доспехи: </strong><span class="additionalAbility">Лёгкие доспехи</span>, <span class="additionalAbility">средние доспехи</span>, <span class="additionalAbility">щиты</span></p>
@@ -91,9 +91,9 @@ const details = {
 <li>а) <span class="additionalAbility">чешуйчатый доспех</span> или б) <span class="additionalAbility">кожаный доспех</span></li>
 <li>а) два <span class="additionalAbility">коротких меча</span> или б) два <span class="additionalAbility">простых рукопашных оружия</span></li>
 <li>а) <span class="tooltipstered tooltip" tooltip-for="item.pack.dungeoneer">набор исследователя подземелий</span> или б) <span class="tooltipstered tooltip" tooltip-for="item.pack.explorer">набор путешественника</span></li>
-<li><span class="additionalAbility">Длинный лук</span> и колчан с <a href="https://dnd.su/articles/inventory/98-equipment/#equipment.arrow" target="_blank">20 стрелами</a></li>
+<li><span class="additionalAbility">Длинный лук</span> и колчан с <span class="additionalAbility">20 стрелами</span></li>
 </ul>
-<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>5к4 × 10</span><span></span></span> зм для покупки снаряжения.</p>
+<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>5к4 × 10</span></span> зм для покупки снаряжения.</p>
 </span></div>
 `,
   explanations: {
@@ -112,9 +112,9 @@ const details = {
 	<h3 class="underlined"><span id="feature.favored-foe">Предпочтительный противник</span></h3>
 	<p><em>1-й уровень, <span tooltip-for="option.TCE" class="tooltipstered tooltip">опциональное</span> умение следопыта, заменяющее умение «Избранный враг» и работающее вместе с «Убийцей врагов»</em></p>
 	<p>Когда вы попадаете атакой по существу, вы можете призвать силы природы, чтобы отметить существо и сделать его своим избранным врагом на 1 минуту или до тех пор, пока не потеряете концентрацию (как если бы вы концентрировались на заклинании).</p>
-	<p>Первый раз в каждый свой ход, когда вы попадаете атакой по избранному врагу и наносите ему урон, в том числе и когда вы отмечаете его, вы можете дополнительно нанести <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к4</span><span></span></span> урона того же типа.</p>
+	<p>Первый раз в каждый свой ход, когда вы попадаете атакой по избранному врагу и наносите ему урон, в том числе и когда вы отмечаете его, вы можете дополнительно нанести <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к4</span></span> урона того же типа.</p>
 	<p>Вы можете использовать это умение для отметки избранного врага количество раз, равное вашему бонусу мастерства. Вы восстанавливаете все потраченные использования после окончания продолжительного отдыха.</p>
-	<p>Дополнительный урон этого умения увеличивается, когда вы достигаете определённых уровней в этом классе: <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к6</span><span></span></span> на 6-м уровне и <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span><span></span></span> на 14-м.</p>
+	<p>Дополнительный урон этого умения увеличивается, когда вы достигаете определённых уровней в этом классе: <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к6</span></span> на 6-м уровне и <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span></span> на 14-м.</p>
 	</div>
 	<br>
 	`,
@@ -144,7 +144,7 @@ const details = {
 	<h4 class="smallSectionTitle">Бродяга (6-й уровень)</h4>
 	<p>Ваша скорость ходьбы увеличивается на 5 футов, и вы получаете скорость лазания и плавания, равную вашей скорости ходьбы.</p>
 	<h4 class="smallSectionTitle">Неутомимый (10-й уровень)</h4>
-	<p>Действием вы можете дать себе количество временных хитов, равное <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span><span></span></span> + модификатор Мудрости (минимум 1 хит). Вы можете использовать это умение количество раз, равное вашему бонусу мастерства. Вы восстанавливаете все потраченные использования после окончания продолжительного отдыха.</p>
+	<p>Действием вы можете дать себе количество временных хитов, равное <span class="dice" onclick="return ROLLtABLE.rollDice(this);"><span>1к8</span></span> + модификатор Мудрости (минимум 1 хит). Вы можете использовать это умение количество раз, равное вашему бонусу мастерства. Вы восстанавливаете все потраченные использования после окончания продолжительного отдыха.</p>
 	<p>Помимо этого, в конце короткого отдыха ваша степень <span tooltip-for="condition.exhaustion" class="tooltipstered tooltip">истощения</span> уменьшается на 1.</p>
 	</div>
 	<br>
