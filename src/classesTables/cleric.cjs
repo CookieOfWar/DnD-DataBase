@@ -13,7 +13,7 @@ const details = {
 <td><span class="tableAbility">Использование заклинаний</span>, <span class="tableAbility">Божественный домен</span></td>
 <td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>2</td><td>+2</td>
-<td><a href="#feature.channel-divinity">Божественный канал (1/отдых)</a>, <span class="tableAbility">Умение божественного домена</span>, <a href="#feature.harness-divine-power">Праведное восстановление</a></td>
+<td><a href="#feature.channel-divinity">Божественный канал (1/отдых)</a>, <span class="tableAbility">Умение божественного домена</span>, <span class="tableAbility">Праведное восстановление</span></td>
 <td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>3</td><td>+2</td>
 <td>—</td>

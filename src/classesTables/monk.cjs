@@ -19,21 +19,21 @@ const details = {
 <tr><td>5</td><td>+3</td><td><span class="dice"><span>1к6</span><span></span></span></td><td>5</td><td>+10 футов</td>
 <td><span class="tableAbility">Дополнительная атака</span>, <span class="tableAbility">Ошеломляющий удар</span>, <span class="tableAbility">Фокусировка на цели</span></td></tr>
 <tr><td>6</td><td>+3</td><td><span class="dice"><span>1к6</span><span></span></span></td><td>6</td><td>+15 футов</td>
-<td><span class="tableAbility">Умение монастырской традиции</span>, <a href="#feature.ki-empowered-strikes">Энергетические удары</a></td></tr>
+<td><span class="tableAbility">Умение монастырской традиции</span>, <span class="tableAbility">Энергетические удары</span></td></tr>
 <tr><td>7</td><td>+3</td><td><span class="dice"><span>1к6</span><span></span></span></td><td>7</td><td>+15 футов</td>
-<td><a href="#feature.stillness-of-mind">Спокойствие разума</a>, <span class="tableAbility">Увёртливость</span></td></tr>
+<td><span class="tableAbility">Спокойствие разума</span>, <span class="tableAbility">Увёртливость</span></td></tr>
 <tr><td>8</td><td>+3</td><td><span class="dice"><span>1к6</span><span></span></span></td><td>8</td><td>+15 футов</td>
 <td><span class="tableAbility">Увеличение характеристик</span></td></tr>
 <tr><td>9</td><td>+4</td><td><span class="dice"><span>1к6</span><span></span></span></td><td>9</td><td>+15 футов</td>
 <td><span class="tableAbility">Улучшенное движение без доспехов</span></td></tr>
 <tr><td>10</td><td>+4</td><td><span class="dice"><span>1к6</span><span></span></span></td><td>10</td><td>+20 футов</td>
-<td><a href="#feature.purity-of-body">Чистота тела</a></td></tr>
+<td><span class="tableAbility">Чистота тела</span></td></tr>
 <tr><td>11</td><td>+4</td><td><span class="dice"><span>1к8</span><span></span></span></td><td>11</td><td>+20 футов</td>
 <td><span class="tableAbility">Умение монастырской традиции</span></td></tr>
 <tr><td>12</td><td>+4</td><td><span class="dice"><span>1к8</span><span></span></span></td><td>12</td><td>+20 футов</td>
 <td><span class="tableAbility">Увеличение характеристик</span></td></tr>
 <tr><td>13</td><td>+5</td><td><span class="dice"><span>1к8</span><span></span></span></td><td>13</td><td>+20 футов</td>
-<td><a href="#feature.tongue-of-sun-and-moon">Язык солнца и луны</a></td></tr>
+<td><span class="tableAbility">Язык солнца и луны</span></td></tr>
 <tr><td>14</td><td>+5</td><td><span class="dice"><span>1к8</span><span></span></span></td><td>14</td><td>+25 футов</td>
 <td><span class="tableAbility">Алмазная душа</span></td></tr>
 <tr><td>15</td><td>+5</td><td><span class="dice"><span>1к8</span><span></span></span></td><td>15</td><td>+25 футов</td>

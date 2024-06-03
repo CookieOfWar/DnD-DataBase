@@ -9,13 +9,13 @@ const details = {
 </tr>
 <tr class="table_header spell-slots-row"><td>1</td><td>2</td><td style="text-align: center;">3</td><td>4</td><td>5</td></tr>
 <tr><td>1</td><td>+2</td>
-<td><span class="tableAbility">Божественное чувство</span>, <a href="#feature.lay-on-hands">Наложение рук</a></td>
+<td><span class="tableAbility">Божественное чувство</span>, <span class="tableAbility">Наложение рук</span></td>
 <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>2</td><td>+2</td>
-<td><span class="tableAbility">Боевой стиль</span>, <span class="tableAbility">Использование заклинаний</span>, <span class="tableAbility">Божественная кара</span><span class="TCE-feature-on" style="display: inline;">, <a href="#feature.TCE-fighting-styles">Варианты боевых стилей</a></span></td>
+<td><span class="tableAbility">Боевой стиль</span>, <span class="tableAbility">Использование заклинаний</span>, <span class="tableAbility">Божественная кара</span><span class="TCE-feature-on" style="display: inline;">, <span class="tableAbility">Варианты боевых стилей</span></span></td>
 <td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>3</td><td>+2</td>
-<td><span class="tableAbility">Божественное здоровье</span>, <span class="tableAbility">Священная клятва</span><span class="TCE-feature-on" style="display: inline;">, <a href="#feature.harness-divine-power">Праведное восстановление</a></span></td>
+<td><span class="tableAbility">Божественное здоровье</span>, <span class="tableAbility">Священная клятва</span><span class="TCE-feature-on" style="display: inline;">, <span class="tableAbility">Праведное восстановление</span></span></td>
 <td>3</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>4</td><td>+2</td>
 <td><span class="tableAbility">Увеличение характеристик</span><span class="TCE-feature-on" style="display: inline;">, <span class="tableAbility">Универсальность воина</span></span></td>
@@ -24,7 +24,7 @@ const details = {
 <td><span class="tableAbility">Дополнительная атака</span></td>
 <td>4</td><td>2</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>6</td><td>+3</td>
-<td><a href="#feature.aura-of-protection">Аура защиты</a></td>
+<td><span class="tableAbility">Аура защиты</span></td>
 <td>4</td><td>2</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>7</td><td>+3</td>
 <td><span class="tableAbility">Умение священной клятвы</span></td>
@@ -36,10 +36,10 @@ const details = {
 <td>-</td>
 <td>4</td><td>3</td><td>2</td><td>-</td><td>-</td></tr>
 <tr><td>10</td><td>+4</td>
-<td><a href="#feature.aura-of-courage">Аура отваги</a></td>
+<td><span class="tableAbility">Аура отваги</span></td>
 <td>4</td><td>3</td><td>2</td><td>-</td><td>-</td></tr>
 <tr><td>11</td><td>+4</td>
-<td><a href="#feature.improved-divine-smite">Улучшенная божественная кара</a></td>
+<td><span class="tableAbility">Улучшенная божественная кара</span></td>
 <td>4</td><td>3</td><td>3</td><td>-</td><td>-</td></tr>
 <tr><td>12</td><td>+4</td>
 <td><span class="tableAbility">Увеличение характеристик</span></td>
@@ -60,7 +60,7 @@ const details = {
 <td>-</td>
 <td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
 <tr><td>18</td><td>+6</td>
-<td><a href="#feature.aura-of-protection">Улучшения ауры</a></td>
+<td><span class="tableAbility">Улучшения ауры</span></td>
 <td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
 <tr><td>19</td><td>+6</td>
 <td><span class="tableAbility">Увеличение характеристик</span></td>
@@ -177,7 +177,7 @@ const details = {
 	<br>`,
     "универсальность воина": `
 	<h3 class="underlined"><span id="feature.martial-versatility">Универсальность воина</span></h3><p><em>4-й уровень, <span tooltip-for="option.TCE" class="tooltipstered tooltip">опциональное</span> умение паладина</em></p>
-	<p>Каждый раз, когда вы достигаете определённого уровня в этом классе, и получаете умение «<a href="#feature.asi">Увеличение характеристик</a>», вы можете заменить известный вам боевой стиль на другой, доступный паладину. Эта замена отражает смену направления вашего развития в боевых практиках.</p>
+	<p>Каждый раз, когда вы достигаете определённого уровня в этом классе, и получаете умение «<span class="tableAbility">Увеличение характеристик</span>», вы можете заменить известный вам боевой стиль на другой, доступный паладину. Эта замена отражает смену направления вашего развития в боевых практиках.</p>
 	</div>
 	<br>`,
     "дополнительная атака": `

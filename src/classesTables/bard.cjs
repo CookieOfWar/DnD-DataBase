@@ -14,7 +14,7 @@ const details = {
 <td><span class="tableAbility">Использование заклинаний</span>, <span class="tableAbility">Дополнительные заклинания</span>, <a href="#feature.bardic-inspiration" style="">Вдохновение барда (к6)</a></td>
 <td style="">2</td><td style="">4</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>2</td><td>+2</td>
-<td><a href="#feature.jack-of-all-trades">Мастер на все руки</a>, <a href="#feature.song-of-rest">Песнь отдыха (к6)</a>, <span class="tableAbility">Магическое вдохновение</span></td>
+<td><span class="tableAbility">Мастер на все руки</span>, <span class="tableAbility">Песнь отдыха (к6)</span>, <span class="tableAbility">Магическое вдохновение</span></td>
 <td>2</td><td>5</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>3</td><td>+2</td>
 <td><span class="tableAbility">Коллегия бардов</span>, <a href="#feature.expertise" style="">Компетентность</a></td>
@@ -59,7 +59,7 @@ const details = {
 <td><span class="tableAbility">Увеличение характеристик</span></td>
 <td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>-</td></tr>
 <tr><td>17</td><td>+6</td>
-<td><a href="#feature.song-of-rest">Песнь отдыха (к12)</a></td>
+<td><span class="tableAbility">Песнь отдыха (к12)</span></td>
 <td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
 <tr><td>18</td><td>+6</td>
 <td><span class="tableAbility">Тайны магии</span></td>
@@ -178,10 +178,10 @@ const details = {
     "многогранность барда": `
 <h3 class="underlined"><span id="feature.bardic-versatility">Многогранность барда</span></h3>
 <p><em>4-й уровень, <span tooltip-for="option.TCE" class="tooltipstered tooltip">опциональное</span> умение барда</em></p>
-<p>Всякий раз, когда достигаете в этом классе уровня, который предоставляет вам «<a href="#feature.ASI">Увеличение характеристик</a>», вы можете сделать одно из следующих действий, представляющих собой изменение вашей специализации на навыках и магии:</p>
+<p>Всякий раз, когда достигаете в этом классе уровня, который предоставляет вам «<span class="tableAbility">Увеличение характеристик</span>», вы можете сделать одно из следующих действий, представляющих собой изменение вашей специализации на навыках и магии:</p>
 <ul>
-<li>Замените один из навыков, выбранный вами с помощью умения «<a href="#feature.expertise">Компетентность</a>», одним из ваших других навыков, который не имеет бонуса от этого умения.</li>
-<li>Замените один заговор, который вы получили от умения «<a href="#feature.spellcasting">Использование заклинаний</a>» этого класса, другим заговором из списка заклинаний барда. </li>
+<li>Замените один из навыков, выбранный вами с помощью умения «<span class="tableAbility">Компетентность</span>», одним из ваших других навыков, который не имеет бонуса от этого умения.</li>
+<li>Замените один заговор, который вы получили от умения «<span class="tableAbility">Использование заклинаний</span>» этого класса, другим заговором из списка заклинаний барда. </li>
 </ul>
 </div>
 

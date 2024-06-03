@@ -6,7 +6,7 @@ const details = {
 <td><span class="long">Бонус<br/>мастерства</span><span class="short tooltip tooltipstered">бм</span></td>
 <td>Умения</td>
 </tr>
-<tr><td> 1</td><td>+2</td><td><span class="tableAbility">Боевой стиль</span>, <a href="#feature.fighting-style-variants">Варианты боевых стилей</a>, <span class="tableAbility">Второе дыхание</span></td></tr>
+<tr><td> 1</td><td>+2</td><td><span class="tableAbility">Боевой стиль</span>, <span class="tableAbility">Варианты боевых стилей</span>, <span class="tableAbility">Второе дыхание</span></td></tr>
 <tr><td> 2</td><td>+2</td><td><span class="tableAbility">Всплеск действий (одно использование)</span></td></tr>
 <tr><td> 3</td><td>+2</td><td><span class="tableAbility">Воинский архетип</span></td></tr>
 <tr><td> 4</td><td>+2</td><td><span class="tableAbility">Увеличение характеристик</span>, <span class="tableAbility">Универсальность воина</span></td></tr>

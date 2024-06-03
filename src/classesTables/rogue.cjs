@@ -26,7 +26,7 @@ const details = {
 <tr><td>17</td><td>+6</td> <td><span class="dice"><span>9к6</span><span></span></span></td><td><span class="tableAbility">Умение архетипа плута</span></td></tr>
 <tr><td>18</td><td>+6</td> <td><span class="dice"><span>9к6</span><span></span></span></td><td><span class="tableAbility">Неуловимость</span></td></tr>
 <tr><td>19</td><td>+6</td><td><span class="dice"><span>10к6</span><span></span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
-<tr><td>20</td><td>+6</td><td><span class="dice"><span>10к6</span><span></span></span></td><td><a href="#feature.stroke-of-luck">Удача</a></td></tr>
+<tr><td>20</td><td>+6</td><td><span class="dice"><span>10к6</span><span></span></span></td><td><span class="tableAbility">Удача</span></td></tr>
 </tbody></table>
 `,
   additionalInfo: `

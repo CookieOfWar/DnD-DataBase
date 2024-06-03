@@ -15,7 +15,7 @@ const details = {
 <td><span class="tableAbility">Происхождение чародея</span>, <span class="tableAbility">Использование заклинаний</span>, <span class="tableAbility">Дополнительные заклинания</span></td>
 <td>4</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>2</td><td>+2</td><td>2</td>
-<td><a href="#feature.font-of-magic">Источник магии</a></td>
+<td><span class="tableAbility">Источник магии</span></td>
 <td>4</td><td>3</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>3</td><td>+2</td><td>3</td>
 <td><span class="tableAbility">Метамагия</span>, <span class="tableAbility">Варианты метамагии</span></td>
