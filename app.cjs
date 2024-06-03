@@ -33,6 +33,10 @@ app.get(/\/race/, (req, res) => {
   res.send(require(`./src/racesDetails.cjs`));
 });
 
+app.get(/\/class\/(.*)/, (req, res) => {
+  res.send(require(`./src/classesTables/${req.path.split("/")[2]}.cjs`));
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });

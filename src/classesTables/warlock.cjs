@@ -1,262 +1,219 @@
-const table = {
-  html: `
-	<table class="class_table">
-  <tbody>
-    <tr class="table_header">
-      <td>
-        <span class="long">Уровень</span
-        ><span class="short tooltip tooltipstered">ур</span>
-      </td>
-      <td>
-        <span class="long">Бонус<br />мастерства</span
-        ><span class="short tooltip tooltipstered">бм</span>
-      </td>
-      <td>Умения</td>
-      <td>
-        <span class="long">Известные<br />заговоры</span
-        ><span class="short tooltip tooltipstered">из</span>
-      </td>
-      <td>
-        <span class="long">Известные<br />заклинания</span
-        ><span class="short tooltip tooltipstered">иЗ</span>
-      </td>
-      <td>
-        <span class="long">Ячейки<br />заклинаний</span
-        ><span class="short tooltip tooltipstered">яЗ</span>
-      </td>
-      <td>
-        <span class="long">Уровень<br />ячеек</span
-        ><span class="short tooltip tooltipstered">уя</span>
-      </td>
-      <td>
-        <span class="long">Известные<br />воззвания</span
-        ><span class="short tooltip tooltipstered">ив</span>
-      </td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>+2</td>
-      <td>
-        <span class="tableAbility">Потусторонний покровитель</span>,
-        <span class="tableAbility">Магия договора</span><span class="TCE-feature-on"
-          >, <span class="tableAbility">Дополнительные заклинания</span></span
-        >
-      </td>
-      <td>2</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>+2</td>
-      <td>
-        <span class="tableAbility">Таинственные воззвания</span>
-      </td>
-      <td>2</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>+2</td>
-      <td>
-        <span class="tableAbility">Предмет договора</span><span class="TCE-feature-on"
-          >, <span class="tableAbility">Вариант договора</span></span
-        >
-      </td>
-      <td>2</td>
-      <td>4</td>
-      <td>2</td>
-      <td>2</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>+2</td>
-      <td>
-        <span class="tableAbility">Увеличение характеристик</span><span class="TCE-feature-on"
-          >,
-          <span class="tableAbility">Мистическая универсальность</span></span
-        >
-      </td>
-      <td>3</td>
-      <td>5</td>
-      <td>2</td>
-      <td>2</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>+3</td>
-      <td>-</td>
-      <td>3</td>
-      <td>6</td>
-      <td>2</td>
-      <td>3</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>+3</td>
-      <td><span class="tableAbility">Умение покровителя</span></td>
-      <td>3</td>
-      <td>7</td>
-      <td>2</td>
-      <td>3</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>+3</td>
-      <td>-</td>
-      <td>3</td>
-      <td>8</td>
-      <td>2</td>
-      <td>4</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>+3</td>
-      <td><span class="tableAbility">Увеличение характеристик</span></td>
-      <td>3</td>
-      <td>9</td>
-      <td>2</td>
-      <td>4</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>+4</td>
-      <td>-</td>
-      <td>3</td>
-      <td>10</td>
-      <td>2</td>
-      <td>5</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>+4</td>
-      <td><span class="tableAbility">Умение покровителя</span></td>
-      <td>4</td>
-      <td>10</td>
-      <td>2</td>
-      <td>5</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>+4</td>
-      <td>
-        <span class="tableAbility">Таинственный арканум (6 уровень)</span>
-      </td>
-      <td>4</td>
-      <td>11</td>
-      <td>3</td>
-      <td>5</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>+4</td>
-      <td><span class="tableAbility">Увеличение характеристик</span></td>
-      <td>4</td>
-      <td>11</td>
-      <td>3</td>
-      <td>5</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>+5</td>
-      <td>
-        <span class="tableAbility">Таинственный арканум (7 уровень)</span>
-      </td>
-      <td>4</td>
-      <td>12</td>
-      <td>3</td>
-      <td>5</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>+5</td>
-      <td><span class="tableAbility">Умение покровителя</span></td>
-      <td>4</td>
-      <td>12</td>
-      <td>3</td>
-      <td>5</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>+5</td>
-      <td>
-        <span class="tableAbility">Таинственный арканум (8 уровень)</span>
-      </td>
-      <td>4</td>
-      <td>13</td>
-      <td>3</td>
-      <td>5</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>+5</td>
-      <td><span class="tableAbility">Увеличение характеристик</span></td>
-      <td>4</td>
-      <td>13</td>
-      <td>3</td>
-      <td>5</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>+6</td>
-      <td>
-        <span class="tableAbility">Таинственный арканум (9 уровень)</span>
-      </td>
-      <td>4</td>
-      <td>14</td>
-      <td>4</td>
-      <td>5</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>+6</td>
-      <td>-</td>
-      <td>4</td>
-      <td>14</td>
-      <td>4</td>
-      <td>5</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>+6</td>
-      <td><span class="tableAbility">Увеличение характеристик</span></td>
-      <td>4</td>
-      <td>15</td>
-      <td>4</td>
-      <td>5</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>+6</td>
-      <td><span class="tableAbility">Таинственный мастер</span></td>
-      <td>4</td>
-      <td>15</td>
-      <td>4</td>
-      <td>5</td>
-      <td>8</td>
-    </tr>
-  </tbody>
-</table>`,
+const details = {
+  table: `
+<table class="class_table"><tbody>
+<tr class="table_header">
+<td><span class="long">Уровень</span><span class="short tooltip tooltipstered">ур</span></td>
+<td><span class="long">Бонус<br/>мастерства</span><span class="short tooltip tooltipstered">бм</span></td>
+<td>Умения</td>
+<td><span class="long">Известные<br/>заговоры</span><span class="short tooltip tooltipstered">из</span></td>
+<td><span class="long">Известные<br/>заклинания</span><span class="short tooltip tooltipstered">иЗ</span></td>
+<td><span class="long">Ячейки<br/>заклинаний</span><span class="short tooltip tooltipstered">яЗ</span></td>
+<td><span class="long">Уровень<br/>ячеек</span><span class="short tooltip tooltipstered">уя</span></td>
+<td><span class="long">Известные<br/>воззвания</span><span class="short tooltip tooltipstered">ив</span></td>
+</tr>
+<tr><td>1</td><td>+2</td>
+<td><span class="tableAbility">Потусторонний покровитель</span>, <span class="tableAbility">Магия договора</span>, <span class="tableAbility">Дополнительные заклинания</span></td>
+<td>2</td><td>2</td><td>1</td><td>1</td><td>-</td></tr>
+<tr><td>2</td><td>+2</td>
+<td><span class="tableAbility">Таинственные воззвания</span></td>
+<td>2</td><td>3</td><td>2</td><td>1</td><td>2</td></tr>
+<tr><td>3</td><td>+2</td>
+<td><span class="tableAbility">Предмет договора</span>, <a href="#pact.talisman">Вариант договора</a></td>
+<td>2</td><td>4</td><td>2</td><td>2</td><td>2</td></tr>
+<tr><td>4</td><td>+2</td>
+<td><span class="tableAbility">Увеличение характеристик</span>, <span class="tableAbility">Мистическая универсальность</span></td>
+<td>3</td><td>5</td><td>2</td><td>2</td><td>2</td></tr>
+<tr><td>5</td><td>+3</td>
+<td>-</td>
+<td>3</td><td>6</td><td>2</td><td>3</td><td>3</td></tr>
+<tr><td>6</td><td>+3</td>
+<td><span class="tableAbility">Умение покровителя</span></td>
+<td>3</td><td>7</td><td>2</td><td>3</td><td>3</td></tr>
+<tr><td>7</td><td>+3</td>
+<td>-</td>
+<td>3</td><td>8</td><td>2</td><td>4</td><td>4</td></tr>
+<tr><td>8</td><td>+3</td>
+<td><span class="tableAbility">Увеличение характеристик</span></td>
+<td>3</td><td>9</td><td>2</td><td>4</td><td>4</td></tr>
+<tr><td>9</td><td>+4</td>
+<td>-</td>
+<td>3</td><td>10</td><td>2</td><td>5</td><td>5</td></tr>
+<tr><td>10</td><td>+4</td>
+<td><span class="tableAbility">Умение покровителя</span></td>
+<td>4</td><td>10</td><td>2</td><td>5</td><td>5</td></tr>
+<tr><td>11</td><td>+4</td>
+<td><span class="tableAbility">Таинственный арканум (6 уровень)</span></td>
+<td>4</td><td>11</td><td>3</td><td>5</td><td>5</td></tr>
+<tr><td>12</td><td>+4</td>
+<td><span class="tableAbility">Увеличение характеристик</span></td>
+<td>4</td><td>11</td><td>3</td><td>5</td><td>6</td></tr>
+<tr><td>13</td><td>+5</td>
+<td><span class="tableAbility">Таинственный арканум (7 уровень)</span></td>
+<td>4</td><td>12</td><td>3</td><td>5</td><td>6</td></tr>
+<tr><td>14</td><td>+5</td>
+<td><span class="tableAbility">Умение покровителя</span></td>
+<td>4</td><td>12</td><td>3</td><td>5</td><td>6</td></tr>
+<tr><td>15</td><td>+5</td>
+<td><span class="tableAbility">Таинственный арканум (8 уровень)</span></td>
+<td>4</td><td>13</td><td>3</td><td>5</td><td>7</td></tr>
+<tr><td>16</td><td>+5</td>
+<td><span class="tableAbility">Увеличение характеристик</span></td>
+<td>4</td><td>13</td><td>3</td><td>5</td><td>7</td></tr>
+<tr><td>17</td><td>+6</td>
+<td><span class="tableAbility">Таинственный арканум (9 уровень)</span></td>
+<td>4</td><td>14</td><td>4</td><td>5</td><td>7</td></tr>
+<tr><td>18</td><td>+6</td>
+<td>-</td>
+<td>4</td><td>14</td><td>4</td><td>5</td><td>8</td></tr>
+<tr><td>19</td><td>+6</td>
+<td><span class="tableAbility">Увеличение характеристик</span></td>
+<td>4</td><td>15</td><td>4</td><td>5</td><td>8</td></tr>
+<tr><td>20</td><td>+6</td>
+<td><span class="tableAbility">Таинственный мастер</span></td>
+<td>4</td><td>15</td><td>4</td><td>5</td><td>8</td></tr>
+</tbody>
+</table>
+`,
+  additionalInfo: `
+<div class="additionalInfo"><h3 class="smallSectionTitle spoiler_head">Хиты, владение и снаряжение<span class="spoiler_head_button">свернуть</span></h3><span class="spoiler_body">
+<h4 class="smallSectionTitle">ХИТЫ</h4>
+<p><strong>Кость Хитов:</strong> <span class="dice"><span>1к8</span><span></span></span> за каждый уровень колдуна</p>
+<p><strong>Хиты на 1 уровне:</strong> 8 + модификатор Телосложения</p>
+<p><strong>Хиты на следующих уровнях:</strong> <span class="dice"><span>1к8</span><span></span></span> (или 5) + модификатор Телосложения (суммарно минимум 1) за каждый уровень колдуна после первого</p>
+<br/>
+<h4 class="smallSectionTitle">ВЛАДЕНИЕ</h4>
+<p><strong>Доспехи</strong>: <span class="additionalAbility">Лёгкие доспехи</span></p>
+<p><strong>Оружие</strong>: <span class="additionalAbility">Простое оружие</span></p>
+<p><strong>Инструменты</strong>: Нет</p>
+<p><strong>Спасброски</strong>: Мудрость, Харизма</p>
+<p><strong>Навыки</strong>: Выберите два навыка из следующих: <span class="tooltipstered tooltip" tooltip-for="skill.intimidation">Запугивание</span>, <span class="tooltipstered tooltip" tooltip-for="skill.history">История</span>, <span class="tooltipstered tooltip" tooltip-for="skill.arcana">Магия</span>, <span class="tooltipstered tooltip" tooltip-for="skill.deception">Обман</span>, <span class="tooltipstered tooltip" tooltip-for="skill.nature">Природа</span>, <span class="tooltipstered tooltip" tooltip-for="skill.investigation">Расследование</span>, <span class="tooltipstered tooltip" tooltip-for="skill.religion">Религия</span></p>
+<br/>
+<h4 class="smallSectionTitle">СНАРЯЖЕНИЕ</h4>
+<p>Вы начинаете со следующим снаряжением в дополнение к снаряжению, полученному за вашу предысторию:</p>
+<ul>
+<li>а) <span class="additionalAbility">лёгкий арбалет</span> и <a href="https://dnd.su/articles/inventory/98-equipment/#equipment.bolt" target="_blank">20 болтов</a> или б) любое <span class="additionalAbility">простое оружие</span></li>
+<li>а) <span class="additionalAbility">мешочек с компонентами</span> или б) <span class="additionalAbility">магическая фокусировка</span></li>
+<li>а) <span class="tooltipstered tooltip" tooltip-for="item.pack.scholar">набор учёного</span> или б) <span class="tooltipstered tooltip" tooltip-for="item.pack.dungeoneer">набор исследователя подземелий</span></li>
+<li><span class="additionalAbility">Кожаный доспех</span>, любое <span class="additionalAbility">простое оружие</span> и два <span class="additionalAbility">кинжала</span></li>
+</ul>
+<p>Если вы откажетесь от этого снаряжения, а также от предметов, предлагаемых вашей предысторией, то вы начнёте игру с <span class="dice"><span>4к4 × 10</span><span></span></span> зм для покупки снаряжения.</p>
+</span></div>
+`,
+  explanations: {
+    "потусторонний покровитель": `
+	<h3 class="underlined"><span id="feature.otherwordly-patron">ПОТУСТОРОННИЙ ПОКРОВИТЕЛЬ</span></h3>
+	<p><em>1-й уровень, умение колдуна</em></p>
+	<p>Вы заключаете сделку с потусторонним существом на ваш выбор. Подробности всех покровителей смотрите <a href="#patrons">ниже</a>. Ваш выбор определит умения, предоставляемые вам на 1-м, 6-м, 10-м и 14-м уровнях.</p>
+	<br>
+	`,
+    "магия договора": `
+	<h3 class="underlined"><span id="feature.pact-magic">МАГИЯ ДОГОВОРА</span></h3>
+	<p><em>1-й уровень, умение колдуна</em></p>
+	<p>Исследования тайн и магия, дарованная покровителем, дают вам возможность использовать заклинания. Вы найдёте список заклинаний, доступных колдуну в этом разделе: <strong><a href="/spells/?search=&amp;class=20">заклинания колдуна</a>.</strong> Так же правила по использованию заклинаний есть в этой статье: <a href="/articles/mechanics/157-spellcasting/"><em> использование заклинаний</em></a>.</p>
+	<h4 class="smallSectionTitle">Заговоры (заклинания 0-го уровня)</h4>
+	<p>Вы знаете два <strong><a href="/spells/?search=&amp;level=0&amp;class=20">заговора</a></strong> на свой выбор из списка заклинаний колдуна. Вы узнаёте дополнительные заговоры колдуна на более высоких уровнях, как показано в колонке «Известные заговоры».</p>
+	<h4 class="smallSectionTitle">Ячейки заклинаний</h4>
+	<p>Таблица «Колдун» показывает, какое количество ячеек для накладывания заклинаний колдуна с 1-го по 5-й уровень у вас есть, а также уровень этих ячеек — все ваши ячейки заклинаний одного уровня. Для накладывания одного из заклинаний колдуна 1-го уровня и выше вы должны потратить ячейку заклинаний. Вы восстановите все потраченные ячейки, когда завершите короткий или продолжительный отдых.</p>
+	<p>Например, если ваш персонаж 5-го уровня, у вас есть две ячейки заклинаний 3-го уровня. Чтобы использовать заклинание 1-го уровня <a href="/spells/15-witch_bolt/">ведьмин снаряд [witch bolt]</a> вы должны потратить одну из этих ячеек, и заклинание сработает как заклинание 3-го уровня.</p>
+	<h4 class="smallSectionTitle">Известные заклинания первого и более высоких уровней</h4>
+	<p>На 1-м уровне вы знаете два заклинания 1-го уровня по своему выбору из списка заклинаний колдуна.</p>
+	<p>Колонка «Известные заклинания» показывает, когда вы сможете выучить новые заклинания 1-го уровня и выше. Уровень заклинания, которое вы выбрали, не должен превышать уровень ячеек, указанный в таблице для колдуна вашего уровня. Например, когда вы получите 6-й уровень, вы изучите новое заклинание колдуна, которое может быть 1-го, 2-го или 3-го уровней.</p>
+	<p>Кроме того, когда вы получаете уровень в этом классе, вы можете выбрать одно из известных вам заклинаний колдуна и заменить его другим заклинанием из списка заклинаний колдуна, с уровнем, не превышающим уровень ячеек заклинаний.</p>
+	<h4 class="smallSectionTitle">Базовая характеристика заклинаний</h4>
+	<p>При накладывании заклинаний колдун использует Харизму. Вы используете Харизму в случаях, когда заклинание ссылается на базовую характеристику. Кроме того, вы используете модификатор Харизмы при определении Сл спасбросков от ваших заклинаний колдуна, и при броске атаки заклинаниями.</p>
+	<p style="text-align: center;"><strong>Сл спасброска</strong> = 8 + ваш бонус мастерства + ваш модификатор Харизмы</p>
+	<p style="text-align: center;"><strong>Модификатор броска атаки</strong> = ваш бонус мастерства + ваш модификатор Харизмы</p>
+	<h4 class="smallSectionTitle">Фокусировка заклинания</h4>
+	<p>Вы можете использовать магическую фокусировку в качестве заклинательной фокусировки для заклинаний колдуна.</p>
+	<div class="TCE-feature-on">
+	<br>
+	`,
+    "дополнительные заклинания колдуна": `
+	<h3 class="underlined"><span id="feature.extra-spells">Дополнительные заклинания колдуна</span></h3>
+	<p><em>1-й уровень, <span tooltip-for="option.TCE" class="tooltipstered tooltip">опциональное</span> умение колдуна</em></p>
+	<p>Заклинания из представленного ниже списка расширяют ваш список заклинаний колдуна, представленный в «<em>Книге игрока</em>». Список отсортирован по уровню заклинаний, а не по уровню персонажа.</p>
+	<br><div class="table-wrapper"><table><tbody>
+	<tr class="table_header"><td>Уровень<br>заклинания</td><td>Заклинание</td></tr>
+	<tr><td>Заговор</td><td><a href="/spells/461-sword_burst/">вспышка мечей [sword burst]</a>, <a href="/spells/458-booming_blade/">громовой клинок [booming blade]</a>, <a href="/spells/459-green_flame_blade/">клинок зеленого пламени [green-flame blade]</a>, <a href="/spells/460-lightning_lure/">лассо молнии [lightning lure]</a>, <a href="/spells/3050-mind_sliver/">расщепление разума [mind sliver]</a></td></tr>
+	<tr><td>3</td><td><a href="/spells/3051-spirit_shroud/">покров духа [spirit shroud]</a>, <a href="/spells/3049-intellect_fortress/">крепость интеллекта [intellect fortress]</a>, <a href="/spells/3067-summon_undead/">призыв духа нежити [summon undead]</a>, <a href="/spells/3069-summon_shadowspawn/">призыв духа тени [summon shadowspawn]</a>, <a href="/spells/3070-summon_fey/">призыв духа феи [summon fey]</a></td></tr>
+	<tr><td>4</td><td><a href="/spells/3062-summon_aberration/">призыв духа аберрации [summon aberration]</a></td></tr>
+	<tr><td>5</td><td><a href="/spells/137-teleportation_circle/">круг телепортации [teleportation circle]</a>, <a href="/spells/231-planar_binding/">планарные узы [planar binding]</a>, <a href="/spells/93-mislead/">фальшивый двойник [mislead]</a></td></tr>
+	<tr><td>6</td><td><a href="/spells/3064-summon_fiend/">призыв духа исчадия [summon fiend]</a>, <a href="/spells/3052-tasha_s_otherworldly_guise/">потусторонний облик Таши [Tasha’s otherwordly guise]</a></td></tr>
+	<tr><td>7</td><td><a href="/spells/3054-dream_of_the_blue_veil/">сон синей вуали [dream of the blue veil]</a></td></tr>
+	<tr><td>9</td><td><a href="/spells/36-gate/">врата [gate]</a>, <a href="/spells/3048-blade_of_disaster/">клинок разрушения [blade of disaster]</a>, <a href="/spells/324-weird/">смертный ужас [weird]</a></td></tr>
+	</tbody></table></div>
+	</div>
+	
+	<br>
+	`,
+    "таинственные воззвания": `
+	<h3 class="underlined"><span id="feature.eldritch-invocations">ТАИНСТВЕННЫЕ ВОЗЗВАНИЯ</span></h3>
+	<p><em>2-й уровень, умение колдуна</em></p>
+	<p>В процессе изучения оккультных знаний вы раскопали таинственные воззвания: фрагменты запрещенных знаний, которые даруют магические способности.</p>
+	<p>Вы получаете два воззвания на свой выбор. Смотрите <a href="#invocations">список воззваний</a>. Получая новые уровни колдуна, вы получаете дополнительные воззвания на свой выбор, как показано в колонке «<a href="#warlock">известные воззвания</a>».</p>
+	<p>Кроме того, когда вы получаете новый уровень этого класса, вы можете выбрать одно известное вам воззвание и заменить его другим, которое вы способны выучить на этом уровне.</p>
+	<br>
+	`,
+    "предмет договора": `
+	<h3 class="underlined"><span id="feature.pact-boon">ПРЕДМЕТ ДОГОВОРА</span></h3>
+	<p><em>3-й уровень, умение колдуна</em></p>
+	<p>Потусторонний покровитель дарует вам подарок за верную службу. Вы получаете одно из следующих умений на выбор:</p>
+	<h4 class="smallSectionTitle"><span id="pact.tome">Договор гримуара</span></h4>
+	<p>Ваш покровитель дарует вам гримуар, который называется «Книга теней». Когда вы получаете это умение, выберите 3 заговора из <a href="/spells/?search=&amp;level=0">списков любых классов</a>. Пока книга с вами, вы можете применять эти заговоры неограниченно. Они не учитываются при подсчёте максимального числа заговоров, которые вы можете знать, и считаются для вас заклинаниями колдуна.</p>
+	<p>Если вы теряете книгу, вам нужно провести ритуал длительностью в 1 час, чтобы получить замену от своего покровителя. Вы можете провести этот ритуал во время короткого или продолжительного отдыха. Предыдущая книга при этом уничтожается. Книга обращается в прах при вашей смерти.</p>
+	<h4 class="smallSectionTitle"><span id="pact.blade">Договор клинка</span></h4>
+	<p>Вы можете действием создать оружие договора в своей пустой руке. Вы сами выбираете <a href="https://dnd.su/articles/inventory/96-arms/#arms-table" target="_blank">форму</a> этого рукопашного оружия каждый раз, когда создаёте. Вы получаете владение этим оружием, пока используете его. Оружие считается магическим при определении преодоления сопротивления и иммунитета от немагических атак и урона.</p>
+	<p>Оружие договора исчезает, если оно в течение 1 минуты находится дальше 5 футов от вас. Оно также исчезает, если вы используете это умение еще раз, отзываете оружие (действие не требуется), или умираете. Вы можете трансформировать одно магическое оружие в своё оружие договора, проведя специальный ритуал, держа это оружие. Ритуал совершается 1 час, его можно провести во время короткого отдыха. Впоследствии вы можете отозвать оружие, помещая его между измерениями. Оно будет появляться в руке, когда вы будете в дальнейшем создавать оружие договора. Вы не можете сделать это с артефактом или разумным оружием. Оружие перестаёт быть оружием договора, когда вы умираете, выполняете часовой ритуал с другим оружием или когда вы исполните ритуал длиной в час для того, чтобы разорвать связь. Оружие материализуется у ваших ног, если в момент разрыва связи оно находилось между измерениями.</p>
+	<div class="TCE-feature-on">
+	<h4 class="smallSectionTitle"><span id="pact.talisman">Договор талисмана</span></h4>
+	<p><em><span tooltip-for="option.TCE" class="tooltipstered tooltip">Опциональный</span> вариант договора</em></p>
+	<p>Ваш покровитель даровал вам уникальный амулет — талисман, который может помогать как вам, так и тому, кто носит его, в момент нужды. Когда носитель этого талисмана проваливает проверку характеристики, он может бросить к4 и прибавить выпавшее значение к проверке. Это преимущество можно использовать количество раз, равное вашему бонусу мастерства, и все потраченные использования восстанавливаются после окончания продолжительного отдыха.</p>
+	<p>Если вы теряете талисман, вы можете провести 1-часовую церемонию и получить замену от своего покровителя. Церемония может быть проведена в течение короткого или продолжительного отдыха, после чего утерянный амулет уничтожается. Когда вы умираете, талисман обращается в пепел.</p>
+	</div>
+	<h4 class="smallSectionTitle"><span id="pact.chain">Договор цепи</span></h4>
+	<p>Вы узнаёте заклинание <a href="/spells/248-find_familiar/">поиск фамильяра [find familiar]</a> и можете сотворять его как ритуал. Это заклинание не учитывается при подсчёте числа заклинаний, которые вы можете знать.</p>
+	<p>Когда вы накладываете это заклинание, вы можете выбрать одну из обычных форм для вашего фамильяра, либо одну из особых форм: <a href="/bestiary/84-imp/">бес [imp]</a>, <a href="/bestiary/73-quasit/">квазит [quasit]</a>, <a href="/bestiary/266-pseudodragon/">псевдодракон [pseudodragon]</a> или <a href="/bestiary/298-sprite/">спрайт [sprite]</a>.</p>
+	<p>Кроме того, когда вы совершаете действие Атака, вы можете вместо одной своей атаки позволить атаковать один раз фамильяру. При этом он совершает свою атаку реакцией.</p>
+	<div class="additionalInfo"><h3 class="smallSectionTitle">Ваш Предмет договора.</h3><p>Каждый вариант предмета договора создаёт особое существо или предмет, отражающий природу вашего покровителя.</p><p><strong>Договор гримуара</strong>. Ваша «Книга Теней» может быть изящным золочёным томом с заклинаниями очарования и иллюзий, дарованным высокомерной Архифеей. Она может быть тяжёлым, переплетённым в кожу демонов и отделанным железом томом, содержащим заклинания вызова и драгоценные, но запретные знания о зловещих уголках космоса. Таким может быть дар Исчадия. Или это может быть изорванный дневник безумца, коснувшегося разума Великого Древнего. Этот дневник содержит обрывки заклинаний, понять которые позволяет только ваше собственное растущее безумие.<br></p><p><strong>Договор клинка</strong>. Если вашим покровителем является Архифея, ваше оружие может быть узким клинком, покрытым лозами. Если вы служите Исчадию, вашим оружием может быть топор из чёрного металла, украшенный декоративными языками пламени. Если ваш покровитель — Великий Древний, вашим оружием может стать древнее копьё с самоцветом в наконечнике, выглядящим как ужасный, немигающий глаз.</p><p><strong>Договор цепи</strong>. Ваш фамильяр смышлёнее чем обычные. Его основная форма может отражать сущность вашего покровителя. Так, <a href="/bestiary/298-sprite/" target="_blank">спрайт [sprite]</a> или <a href="/bestiary/266-pseudodragon/" target="_blank">псевдодракон [pseudodragon]</a> относится к Архифее, а <a href="/bestiary/84-imp/" target="_blank">бес [imp]</a> или <a href="/bestiary/73-quasit/" target="_blank">квазит [quasit]</a> к Исчадию. Поскольку сущность Великого Древнего не поддаётся пониманию, ему подходит любая форма фамильяра.</p></div>
+	
+	<br>
+	`,
+    "увеличение характеристик": `
+	<h3 class="underlined"><span id="feature.ASI">УВЕЛИЧЕНИЕ ХАРАКТЕРИСТИК</span></h3>
+	<p><em>4-й уровень, умение колдуна</em></p>
+	<p>При достижении 4-го, 8-го, 12-го, 16-го и 19-го уровней вы можете повысить значение одной из ваших характеристик на 2 или двух характеристик на 1. Как обычно, значение характеристики при этом не должно превысить 20.</p>
+	<p>Если ваш Мастер разрешает использование черт, вы можете отказаться от преимуществ этого умения при повышении значений характеристик и вместо этого взять <a href="/feats/">черту</a>.</p>
+	
+	<div class="TCE-feature-on">
+	<br>
+	`,
+    "мистическая универсальность": `
+	<h3 class="underlined"><span id="feature.eldritch-versatility">Мистическая универсальность</span></h3>
+	<p><em>4-й уровень, <span tooltip-for="option.TCE" class="tooltipstered tooltip">опциональное</span> умение колдуна</em></p>
+	<p>Каждый раз, когда вы достигаете определённого уровня в этом классе, и получаете умение «Увеличение характеристик», вы можете сделать одно из следующих действий как отражение изменения фокуса в ваших оккультных практиках:</p>
+	<ul>
+	<li>Замените один заговор, который вы узнали благодаря умению «Магия договора» этого класса, другим заговором из списка заклинаний колдуна. </li>
+	<li>Замените дар, полученный вами от умения «Предмет договора», на один из других даров, предлагаемых этим умением. </li>
+	<li>Если вы имеете 12-й уровень в этом классе или выше, замените одно заклинание от умения «Таинственный арканум» другим заклинанием колдуна того же уровня. </li>
+	</ul>
+	<p>Если это изменение делает вас непригодным для любого из ваших таинственных воззваний, вы незамедлительно должны заменить его, выбрав то воззвание, для которого вы подходите.</p>
+	</div>
+	
+	<br>
+	`,
+    "таинственный арканум": `
+	<h3 class="underlined"><span id="feature.mystic-arcanum">ТАИНСТВЕННЫЙ АРКАНУМ</span></h3>
+	<p><em>11-й уровень, умение колдуна</em></p>
+	<p>Ваш покровитель дарует вам магический секрет, называемый арканумом. Выберите одно заклинание 6-го уровня из списка заклинаний колдуна в качестве арканума.</p>
+	<p>Вы можете наложить это заклинание, не используя ячейку заклинаний. Вы должны окончить продолжительный отдых, чтобы сделать это еще раз.</p>
+	<p>На следующих уровнях вы получаете новые заклинания, которые можно применить таким образом — одно 7-го уровня на 13-м уровне, одно 8-го уровня на 15-м уровне и одно 9-го уровня на 17-м уровне. После окончания продолжительного отдыха вы восстанавливаете все потраченные использования арканумов.</p>
+	<br>
+	`,
+    "таинственный мастер": `
+	<h3 class="underlined"><span id="feature.eldritch-master">ТАИНСТВЕННЫЙ МАСТЕР</span></h3>
+	<p><em>20-й уровень, умение колдуна</em></p>
+	<p>Вы можете обратиться к внутреннему резерву мистической силы, умоляя при этом покровителя восстановить потраченные ячейки заклинаний. Вам надо потратить 1 минуту, умоляя покровителя, чтобы восстановить все использованные ячейки заклинаний, дарованные умением «Магия договора». Вы должны закончить продолжительный отдых, чтобы применить это умение вновь.</p>
+	`,
+  },
 };
+module.exports = details;
