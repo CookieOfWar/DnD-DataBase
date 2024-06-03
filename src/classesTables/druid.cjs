@@ -1,7 +1,7 @@
 const details = {
   table: `
 <table class="class_table"><tbody>
-<tr class="table_header">
+<tr class="table_header wide_table">
 <td rowspan="2"><span class="long">Уровень</span><span class="short tooltip tooltipstered">ур</span></td>
 <td rowspan="2"><span class="long">Бонус<br/>мастерства</span><span class="short tooltip tooltipstered">бм</span></td>
 <td rowspan="2">Умения</td>
@@ -124,7 +124,7 @@ const details = {
 	
 	<div class="TCE-feature-on" style="display: block;">
 	<br>`,
-    "дополнительные заклинания друидов": `
+    "дополнительные заклинания": `
 	<h3 class="underlined"><span id="feature.extra-spells">Дополнительные заклинания друидов</span></h3>
 	<p><em>1-й уровень, <span tooltip-for="option.TCE" class="tooltipstered tooltip">опциональное</span> умение друида </em></p>
 	<p>Заклинания из представленного ниже списка расширяют ваш список заклинаний друида, представленный в «<em>Книге игрока</em>». Список отсортирован по уровню заклинаний, а не по уровню персонажа. Если заклинание может быть наложено как ритуал, то в скобках также будет указано «ритуал».</p>

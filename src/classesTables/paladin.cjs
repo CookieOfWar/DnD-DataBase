@@ -12,7 +12,7 @@ const details = {
 <td><span class="tableAbility">Божественное чувство</span>, <span class="tableAbility">Наложение рук</span></td>
 <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>2</td><td>+2</td>
-<td><span class="tableAbility">Боевой стиль</span>, <span class="tableAbility">Использование заклинаний</span>, <span class="tableAbility">Божественная кара</span><span class="TCE-feature-on" style="display: inline;">, <span class="tableAbility">Варианты боевых стилей</span></span></td>
+<td><span class="tableAbility">Боевой стиль</span>, <span class="tableAbility">Использование заклинаний</span>, <span class="tableAbility">Божественная кара</span><span class="TCE-feature-on" style="display: inline;">, <span class="tableAbility">Варианты боевых стилей</span>, <span class="tableAbility">Дополнительные заклинания</span></span></td>
 <td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>3</td><td>+2</td>
 <td><span class="tableAbility">Божественное здоровье</span>, <span class="tableAbility">Священная клятва</span><span class="TCE-feature-on" style="display: inline;">, <span class="tableAbility">Праведное восстановление</span></span></td>
@@ -136,7 +136,7 @@ const details = {
 	<h4 class="smallSectionTitle">Фокусировка заклинания</h4><p>Вы можете использовать священный символ в качестве заклинательной фокусировки для заклинаний паладина.</p>
 	<div class="TCE-feature-on" style="display: block;">
 	<br>`,
-    "дополнительные заклинания паладина": `
+    "дополнительные заклинания": `
 	<h3 class="underlined"><span id="feature.TCE-spells">Дополнительные заклинания паладина</span></h3><p><em>2-й уровень, <span tooltip-for="option.TCE" class="tooltipstered tooltip">опциональное</span> умение паладина</em></p>
 	<p>Заклинания из представленного ниже списка расширяют ваш список заклинаний паладина, представленный в «<em>Книге игрока</em>». Список отсортирован по уровню заклинаний, а не по уровню персонажа.&nbsp;</p>
 	<br><div class="table-wrapper"><table><tbody>

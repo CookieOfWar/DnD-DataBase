@@ -13,7 +13,7 @@ const details = {
 <td><span class="tableAbility">Избранный враг</span>, <span class="tableAbility">Предпочтительный противник</span></span>, <span class="tableAbility">Исследователь природы</span><span class="TCE-feature-on">, <span class="tableAbility">Искусный исследователь</span></td>
 <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>2</td><td>+2</td>
-<td><span class="tableAbility">Боевой стиль</span>, <span class="tableAbility">Использование заклинаний</span>, <span class="tableAbility">Заклинательная фокусировка</span></td>
+<td><span class="tableAbility">Боевой стиль</span>, <span class="tableAbility">Использование заклинаний</span>, <span class="tableAbility">Заклинательная фокусировка</span>, <span class="tableAbility">Дополнительные заклинания</span></td>
 <td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>3</td><td>+2</td>
 <td><span class="tableAbility">Архетип следопыта</span>, <span class="tableAbility">Первозданная осведомлённость</span>, <span class="tableAbility">Изначальная осведомлённость</span></td>
@@ -198,7 +198,7 @@ const details = {
 	<div class="TCE-feature-on">
 	<br>
 	`,
-    "дополнительные заклинания следопыта": `
+    "дополнительные заклинания": `
 	<h3 class="underlined"><span id="feature.extra-spells">Дополнительные заклинания следопыта</span></h3>
 	<p><em>2-й уровень, <span tooltip-for="option.TCE" class="tooltipstered tooltip">опциональное</span> умение следопыта</em></p>
 	<p>Заклинания из представленного ниже списка расширяют ваш список заклинаний следопыта представленный в «<em>Книге игрока</em>». Список отсортирован по уровню заклинаний, а не по уровню персонажа.</p>

@@ -1,7 +1,7 @@
 const details = {
   table: `
 <table class="class_table"><tbody>
-<tr class="table_header">
+<tr class="table_header wide_table">
 <td><span class="long">Уровень</span><span class="short tooltip tooltipstered">ур</span></td>
 <td><span class="long">Бонус<br/>мастерства</span><span class="short tooltip tooltipstered">бм</span></td>
 <td>Умения</td>
@@ -128,7 +128,7 @@ const details = {
 	<div class="TCE-feature-on">
 	<br>
 	`,
-    "дополнительные заклинания колдуна": `
+    "дополнительные заклинания": `
 	<h3 class="underlined"><span id="feature.extra-spells">Дополнительные заклинания колдуна</span></h3>
 	<p><em>1-й уровень, <span tooltip-for="option.TCE" class="tooltipstered tooltip">опциональное</span> умение колдуна</em></p>
 	<p>Заклинания из представленного ниже списка расширяют ваш список заклинаний колдуна, представленный в «<em>Книге игрока</em>». Список отсортирован по уровню заклинаний, а не по уровню персонажа.</p>

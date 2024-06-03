@@ -1,7 +1,7 @@
 const details = {
   table: `
 <table class="class_table"><tbody>
-<tr class="table_header">
+<tr class="table_header wide_table">
 <td rowspan="2"><span class="long">Уровень</span><span class="short tooltip tooltipstered">ур</span></td>
 <td rowspan="2"><span class="long">Бонус<br/>мастерства</span><span class="short tooltip tooltipstered">бм</span></td>
 <td rowspan="2">Умения</td>
@@ -10,7 +10,7 @@ const details = {
 </tr>
 <tr class="table_header spell-slots-row"><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
 <tr><td>1</td><td>+2</td>
-<td><span class="tableAbility">Использование заклинаний</span>, <span class="tableAbility">Божественный домен</span></td>
+<td><span class="tableAbility">Использование заклинаний</span>, <span class="tableAbility">Божественный домен</span>, <span class="tableAbility">Дополнительные заклинания</span></td>
 <td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>2</td><td>+2</td>
 <td><a href="#feature.channel-divinity">Божественный канал (1/отдых)</a>, <span class="tableAbility">Умение божественного домена</span>, <span class="tableAbility">Праведное восстановление</span></td>
@@ -109,7 +109,7 @@ const details = {
 <h4 class="smallSectionTitle">Фокусировка заклинания</h4><p>Вы можете использовать священный символ в качестве заклинательной фокусировки для заклинаний жреца.</p>
 <div class="TCE-feature-on" bis_skin_checked="1">
 <br>`,
-    "дополнительные заклинания жреца": `
+    "дополнительные заклинания": `
 <h3 class="underlined">Дополнительные заклинания жреца</h3>
 <p><em>1-й уровень, <span tooltip-for="option.TCE" class="tooltipstered tooltip">опциональное</span> умение жреца</em></p>
 <p>Заклинания из представленного списка расширяют ваш список заклинаний жреца, представленный в «<em>Книге игрока</em>». Список отсортирован по уровню заклинаний, а не по уровню персонажа. Если заклинание может быть наложено как ритуал, то в скобках также будет указано «ритуал».</p>
