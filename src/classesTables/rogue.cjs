@@ -13,11 +13,11 @@ const details = {
 <tr> <td>4</td><td>+2</td> <td><span class="dice"><span>2к6</span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
 <tr> <td>5</td><td>+3</td> <td><span class="dice"><span>3к6</span></span></td><td><span class="tableAbility">Невероятное уклонение</span></td></tr>
 <tr> <td>6</td><td>+3</td> <td><span class="dice"><span>3к6</span></span></td><td><span class="tableAbility">Компетентность</span></td></tr>
-<tr> <td>7</td><td>+3</td> <td><span class="dice"><span>4к6</span></span></td><td><span class="tableAbility">Увёртливость</span></td></tr>
+<tr> <td>7</td><td>+3</td> <td><span class="dice"><span>4к6</span></span></td><td><span class="tableAbility">Увертливость</span></td></tr>
 <tr> <td>8</td><td>+3</td> <td><span class="dice"><span>4к6</span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
 <tr> <td>9</td><td>+4</td> <td><span class="dice"><span>5к6</span></span></td><td><span class="tableAbility">Умение архетипа плута</span></td></tr>
 <tr><td>10</td><td>+4</td> <td><span class="dice"><span>5к6</span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
-<tr><td>11</td><td>+4</td> <td><span class="dice"><span>6к6</span></span></td><td><span class="tableAbility">Надёжный талант</span></td></tr>
+<tr><td>11</td><td>+4</td> <td><span class="dice"><span>6к6</span></span></td><td><span class="tableAbility">Надежный талант</span></td></tr>
 <tr><td>12</td><td>+4</td> <td><span class="dice"><span>6к6</span></span></td><td><span class="tableAbility">Увеличение характеристик</span></td></tr>
 <tr><td>13</td><td>+5</td> <td><span class="dice"><span>7к6</span></span></td><td><span class="tableAbility">Умение архетипа плута</span></td></tr>
 <tr><td>14</td><td>+5</td> <td><span class="dice"><span>7к6</span></span></td><td><span class="tableAbility">Слепое зрение</span></td></tr>
@@ -85,7 +85,7 @@ const details = {
     "архетип плута": `
 	<h3 class="underlined"><span id="feature.roguish-archetype">АРХЕТИП ПЛУТА</span></h3>
 	<p><em>3-й уровень, умение плута</em></p>
-	<p>Вы выбираете архетип, который отображает ваши плутовские способности. Подробности всех архетипов находятся <a href="#roguish-archetypes" target="_blank">ниже</a>. Выбранный вами архетип предоставляет умения на 3-м, 9-м, 13-м и 17-м уровнях.</p>
+	<p>Вы выбираете архетип, который отображает ваши плутовские способности. Подробности всех архетипов находятся <span>ниже</span>. Выбранный вами архетип предоставляет умения на 3-м, 9-м, 13-м и 17-м уровнях.</p>
 	<div class="TCE-feature-on" bis_skin_checked="1">
 	<br>
 	`,
@@ -100,7 +100,7 @@ const details = {
 	<h3 class="underlined"><span id="feature.ASI">УВЕЛИЧЕНИЕ ХАРАКТЕРИСТИК</span></h3>
 	<p><em>4-й уровень, умение плута</em></p>
 	<p>При достижении 4-го, 8-го, 10-го, 12-го, 16-го и 19-го уровней вы можете повысить значение одной из ваших характеристик на 2 или двух характеристик на 1. Как обычно, значение характеристики при этом не должно превысить 20.</p>
-	<p>Если ваш Мастер разрешает использование черт, вы можете отказаться от преимуществ этого умения при повышении значений характеристик и вместо этого взять <a href="/feats/">черту</a>.</p>
+	<p>Если ваш Мастер разрешает использование черт, вы можете отказаться от преимуществ этого умения при повышении значений характеристик и вместо этого взять <span class="feat">черту</span>.</p>
 	<br>
 	`,
     "невероятное уклонение": `
@@ -112,7 +112,7 @@ const details = {
     увёртливость: `
 	<h3 class="underlined"><span id="feature.evasion">УВЁРТЛИВОСТЬ</span></h3>
 	<p><em>7-й уровень, умение плута</em></p>
-	<p>Вы можете ловко увернуться от зональных эффектов, например, огненного дыхания красного дракона или заклинания <a href="/spells/49-ice_storm/" target="_blank">град [ice storm]</a>. Если вы попадаете под действие эффекта, который позволяет вам совершить спасбросок Ловкости, чтобы получить только половину урона, вместо этого вы не получаете вовсе никакого урона, если спасбросок был успешен, и получаете только половину урона, если он был провален.</p>
+	<p>Вы можете ловко увернуться от зональных эффектов, например, огненного дыхания красного дракона или заклинания <span class="spellTip">град</span>. Если вы попадаете под действие эффекта, который позволяет вам совершить спасбросок Ловкости, чтобы получить только половину урона, вместо этого вы не получаете вовсе никакого урона, если спасбросок был успешен, и получаете только половину урона, если он был провален.</p>
 	<br>
 	`,
     "надёжный талант": `

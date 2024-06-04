@@ -16,7 +16,7 @@ const details = {
 <td><span class="tableAbility">Боевой стиль</span>, <span class="tableAbility">Использование заклинаний</span>, <span class="tableAbility">Заклинательная фокусировка</span>, <span class="tableAbility">Дополнительные заклинания</span></td>
 <td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>3</td><td>+2</td>
-<td><span class="tableAbility">Архетип следопыта</span>, <span class="tableAbility">Первозданная осведомлённость</span>, <span class="tableAbility">Изначальная осведомлённость</span></td>
+<td><span class="tableAbility">Архетип следопыта</span>, <span class="tableAbility">Первозданная осведомленность</span>, <span class="tableAbility">Изначальная осведомленность</span></td>
 <td>3</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>4</td><td>+2</td>
 <td><span class="tableAbility">Увеличение характеристик</span>, <span class="tableAbility">Универсальность воина</span></td>
@@ -31,7 +31,7 @@ const details = {
 <td><span class="tableAbility">Умение архетипа следопыта</span></td>
 <td>5</td><td>4</td><td>3</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td style="">8</td><td style="">+3</td>
-<td><a href="#feature.ASI" style="">Увеличение характеристик</a>, <span class="tableAbility">Тропами земли</span></td>
+<td><span class="tableAbility">Увеличение характеристик</span>, <span class="tableAbility">Тропами земли</span></td>
 <td>5</td><td>4</td><td>3</td><td>-</td><td>-</td><td>-</td></tr>
 <tr style=""><td style="">9</td><td style="">+4</td>
 <td style="">-</td>
@@ -167,7 +167,7 @@ const details = {
 	<p>Вы получаете <span tooltip-for="vision.blindsight" class="tooltipstered tooltip">слепое зрение</span> в пределах 10 футов. В пределах этой дистанции вы можете видеть всё, что не находится за <span tooltip-for="cover.full" class="tooltipstered tooltip">полным укрытием</span>, даже если вы <span tooltip-for="condition.blinded" class="tooltipstered tooltip">ослеплены</span> или находитесь в <span tooltip-for="light.darkness" class="tooltipstered tooltip">темноте</span>. Более того, вы можете увидеть <span tooltip-for="condition.invisible" class="tooltipstered tooltip">невидимое</span> существо в пределах этой дистанции, если только оно не преуспело в попытке спрятаться от вас.</p>
 	<h4 class="smallSectionTitle">Воин-друид</h4>
 	<p><em><span tooltip-for="option.TCE" class="tooltipstered tooltip">опциональный</span> вариант боевого стиля</em></p>
-	<p>Вы узнаёте два <a href="/spells/?search=&amp;level=0&amp;class=22">заговора</a> по вашему выбору из списка заклинаний друида. Они считаются заклинаниями следопыта для вас, а базовой характеристикой для этих заклинаний является ваша Мудрость. Каждый раз, когда вы получаете уровень в этом классе, вы можете заменить один из заговоров на другой из списка заклинаний друида.</p>
+	<p>Вы узнаёте два <span>заговора</span> по вашему выбору из списка заклинаний друида. Они считаются заклинаниями следопыта для вас, а базовой характеристикой для этих заклинаний является ваша Мудрость. Каждый раз, когда вы получаете уровень в этом классе, вы можете заменить один из заговоров на другой из списка заклинаний друида.</p>
 	<h4 class="smallSectionTitle">Сражение метательным оружием</h4>
 	<p><em><span tooltip-for="option.TCE" class="tooltipstered tooltip">опциональный</span> вариант боевого стиля</em></p>
 	<p>Вы можете вытащить оружие со свойством «<span tooltip-for="weapon.thrown" class="tooltipstered tooltip">метательное</span>» частью атаки, которую вы совершаете этим оружием.</p>
@@ -178,10 +178,10 @@ const details = {
     "использование заклинаний": `
 	<h3 class="underlined"><span id="feature.spellcasting">Использование заклинаний</span></h3>
 	<p><em>2-й уровень, умение следопыта</em></p>
-	<p>Вы обучаетесь использованию волшебной сущности природы для накладывания заклинаний подобно друиду. Вы найдёте список заклинаний, доступных следопыту в этом разделе: <a href="/spells/?search=&amp;level=&amp;school=&amp;class=17&amp;concentration=&amp;source=">заклинания следопыта</a>. Так же правила по использованию заклинаний есть в этой статье: <a href="/articles/mechanics/157-spellcasting/"><em> использование заклинаний</em></a>.</p>
+	<p>Вы обучаетесь использованию волшебной сущности природы для накладывания заклинаний подобно друиду. Вы найдёте список заклинаний, доступных следопыту в этом разделе: <span>заклинания следопыта</span>. Так же правила по использованию заклинаний есть в этой статье: <span><em> использование заклинаний</em</span>.</p>
 	<h4 class="smallSectionTitle">Ячейки заклинаний</h4>
 	<p>Таблица «Следопыт» показывает, какое количество ячеек заклинаний для сотворения заклинаний следопыта у вас есть на втором и более высоких уровнях. Для накладывания одного из этих заклинаний вы должны потратить ячейку заклинаний того же уровня или выше, что и само заклинание. Вы восстановите все потраченные ячейки, когда завершите продолжительный отдых.</p>
-	<p>Например, если вы знаете заклинание 1-го уровня <a href="/spells/72-animal_friendship/">дружба с животными [animal friendship]</a>, и у вас есть ячейки 1-го и 2-го уровней, вы можете наложить заклинание <a href="/spells/72-animal_friendship/">дружба с животными [animal friendship]</a> с помощью любой из этих ячеек.</p>
+	<p>Например, если вы знаете заклинание 1-го уровня <span class="spellTip">дружба с животными</span>, и у вас есть ячейки 1-го и 2-го уровней, вы можете наложить заклинание <span class="spellTip">дружба с животными</span> с помощью любой из этих ячеек.</p>
 	<h4 class="smallSectionTitle">Известные заклинания первого и более высоких уровней</h4>
 	<p>Вы знаете два заклинания 1-го уровня на свой выбор из списка доступных следопыту.</p>
 	<p>Колонка «известные заклинания» показывает, когда вы сможете выучить новые заклинания. Уровень заклинаний не должен превышать уровень самой высокой имеющейся у вас ячейки заклинаний. Например, когда вы достигнете 5-го уровня в этом классе, вы можете выучить одно новое заклинание 1-го или 2-го уровня.</p>
@@ -204,11 +204,11 @@ const details = {
 	<p>Заклинания из представленного ниже списка расширяют ваш список заклинаний следопыта представленный в «<em>Книге игрока</em>». Список отсортирован по уровню заклинаний, а не по уровню персонажа.</p>
 	<br><div class="table-wrapper"><table><tbody>
 	<tr class="table_header"><td>Уровень заклинания</td><td>Заклинания</td></tr>
-	<tr><td>1</td><td><a href="/spells/211-entangle/">опутывание [entangle]</a>, <a href="/spells/224-searing_smite/">палящая кара [searing smite]</a></td></tr>
-	<tr><td>2</td><td><a href="/spells/153-magic_weapon/">магическое оружие [magic weapon]</a>, <a href="/spells/236-aid/">подмога [aid]</a>, <a href="/spells/255-gust_of_wind/">порыв ветра [gust of wind]</a>, <a href="/spells/3063-summon_beast/">призыв духа зверя [summon beast]</a>, <a href="/spells/103-enhance_ability/">улучшение характеристики [enhance ability]</a></td></tr>
-	<tr><td>3</td><td><a href="/spells/24-revivify/">возрождение [revivify]</a>, <a href="/spells/318-meld_into_stone/">слияние с камнем [meld into stone]</a>, <a href="/spells/339-elemental_weapon/">стихийное оружие [elemental weapon]</a>, <a href="/spells/3070-summon_fey/">призыв духа феи [summon fey]</a></td></tr>
-	<tr><td>4</td><td><a href="/spells/239-dominate_beast/">подчинение зверя [dominate beast]</a>, <a href="/spells/3068-summon_elemental/">призыв духа элементаля [summon elemental]</a></td></tr>
-	<tr><td>5</td><td><a href="/spells/39-greater_restoration/">высшее восстановление [greater restoration]</a></td></tr>
+	<tr><td>1</td><td><span class="spellTip">опутывание</span>, <span class="spellTip">палящая кара</span></td></tr>
+	<tr><td>2</td><td><span class="spellTip">магическое оружие</span>, <span class="spellTip">подмога</span>, <span class="spellTip">порыв ветра</span>, <span class="spellTip">призыв духа зверя</span>, <span class="spellTip">улучшение характеристики</span></td></tr>
+	<tr><td>3</td><td><span class="spellTip">возрождение</span>, <span class="spellTip">слияние с камнем</span>, <span class="spellTip">стихийное оружие</span>, <span class="spellTip">призыв духа феи</span></td></tr>
+	<tr><td>4</td><td><span class="spellTip">подчинение зверя</span>, <span class="spellTip">призыв духа элементаля</span></td></tr>
+	<tr><td>5</td><td><span class="spellTip">высшее восстановление</span></td></tr>
 	</tbody>
 	</table></div>
 	</div>
@@ -235,11 +235,11 @@ const details = {
 	<h4 class="tableTitle">Заклинания изначальной осведомлённости</h4>
 	<div class="table-wrapper"><table><tbody>
 	<tr class="table_header"><td>Уровень следопыта</td><td>Заклинание</td></tr>
-	<tr><td>3</td><td><a href="/spells/292-speak_with_animals/">разговор с животными [speak with animals]</a></td></tr>
-	<tr><td>5</td><td><a href="/spells/76-beast_sense/">животные чувства [beast sense]</a></td></tr>
-	<tr><td>9</td><td><a href="/spells/294-speak_with_plants/">разговор с растениями [speak with plants]</a></td></tr>
-	<tr><td>13</td><td><a href="/spells/247-locate_creature/">поиск существа [locate creature]</a></td></tr>
-	<tr><td>17</td><td><a href="/spells/199-commune_with_nature/">общение с природой [commune with nature]</a></td></tr>
+	<tr><td>3</td><td><span class="spellTip">разговор с животными</span></td></tr>
+	<tr><td>5</td><td><span class="spellTip">животные чувства</span></td></tr>
+	<tr><td>9</td><td><span class="spellTip">разговор с растениями</span></td></tr>
+	<tr><td>13</td><td><span class="spellTip">поиск существа</span></td></tr>
+	<tr><td>17</td><td><span class="spellTip">общение с природой</span></td></tr>
 	</tbody></table></div>
 	<br><p>Вы можете единожды наложить каждое из этих заклинаний без использования ячеек заклинания. После того, как вы наложили заклинание таким образом, вы не сможете сделать это вновь, пока не закончите продолжительный отдых.</p>
 	</div>
@@ -249,7 +249,7 @@ const details = {
 	<h3 class="underlined"><span id="feature.ASI">УВЕЛИЧЕНИЕ ХАРАКТЕРИСТИК</span></h3>
 	<p><em>4-й уровень, умение следопыта</em></p>
 	<p>При достижении 4-го, 8-го, 12-го, 16-го и 19-го уровней вы можете повысить значение одной из ваших характеристик на 2 или двух характеристик на 1. Как обычно, значение характеристики при этом не должно превысить 20.</p>
-	<p>Если ваш Мастер разрешает использование черт, вы можете отказаться от преимуществ этого умения при повышении значений характеристик и вместо этого взять <a href="/feats/">черту</a>.</p>
+	<p>Если ваш Мастер разрешает использование черт, вы можете отказаться от преимуществ этого умения при повышении значений характеристик и вместо этого взять <span class="feat">черту</span>.</p>
 	<div class="TCE-feature-on">
 	<br>
 	`,
@@ -270,7 +270,7 @@ const details = {
 	<h3 class="underlined"><span id="feature.lands-stride">ТРОПАМИ ЗЕМЛИ</span></h3>
 	<p><em>8-й уровень, умение следопыта</em></p>
 	<p>Перемещение по немагической <span tooltip-for="terrain.difficult" class="tooltipstered tooltip">труднопроходимой местности</span> не стоит вам никакого дополнительного перемещения. Вы также можете проходить через немагические растения без замедления, и не получая от них урона, даже если у них есть шипы, колючки или аналогичная опасность.</p>
-	<p>Кроме того, вы совершаете с преимуществом спасброски от растений, которые были магическим образом созданы или управляются магией, препятствуя движению, например, созданных заклинанием <a href="/spells/211-entangle/">опутывание [entangle]</a>.</p>
+	<p>Кроме того, вы совершаете с преимуществом спасброски от растений, которые были магическим образом созданы или управляются магией, препятствуя движению, например, созданных заклинанием <span class="spellTip">опутывание</span>.</p>
 	<br>
 	`,
     "маскировка на виду": `

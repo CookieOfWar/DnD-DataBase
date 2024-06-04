@@ -13,7 +13,7 @@ const details = {
 <tr><td>2</td><td>+2</td><td><span class="dice"><span>1к4</span></span></td><td>2</td><td>+10 футов</td>
 <td><span class="tableAbility">Движение без доспехов</span>, <span class="tableAbility">Ци</span>, <span class="tableAbility">Выбранное оружие</span></td></tr>
 <tr><td>3</td><td>+2</td><td><span class="dice"><span>1к4</span></span></td><td>3</td><td>+10 футов</td>
-<td><span class="tableAbility">Монастырская традиция</span>, <span class="tableAbility">Отражение снарядов</span>, <a href="#feature.ki-fueled-attack">Атака, наделённая ци</a></td></tr>
+<td><span class="tableAbility">Монастырская традиция</span>, <span class="tableAbility">Отражение снарядов</span>, <span class="tableAbility">Атака, наделенная ци</span></td></tr>
 <tr><td>4</td><td>+2</td><td><span class="dice"><span>1к4</span></span></td><td>4</td><td>+10 футов</td>
 <td><span class="tableAbility">Медленное падение</span>, <span class="tableAbility">Увеличение характеристик</span>, <span class="tableAbility">Ускоренное исцеление</span></td></tr>
 <tr><td>5</td><td>+3</td><td><span class="dice"><span>1к6</span></span></td><td>5</td><td>+10 футов</td>
@@ -21,7 +21,7 @@ const details = {
 <tr><td>6</td><td>+3</td><td><span class="dice"><span>1к6</span></span></td><td>6</td><td>+15 футов</td>
 <td><span class="tableAbility">Умение монастырской традиции</span>, <span class="tableAbility">Энергетические удары</span></td></tr>
 <tr><td>7</td><td>+3</td><td><span class="dice"><span>1к6</span></span></td><td>7</td><td>+15 футов</td>
-<td><span class="tableAbility">Спокойствие разума</span>, <span class="tableAbility">Увёртливость</span></td></tr>
+<td><span class="tableAbility">Спокойствие разума</span>, <span class="tableAbility">Увертливость</span></td></tr>
 <tr><td>8</td><td>+3</td><td><span class="dice"><span>1к6</span></span></td><td>8</td><td>+15 футов</td>
 <td><span class="tableAbility">Увеличение характеристик</span></td></tr>
 <tr><td>9</td><td>+4</td><td><span class="dice"><span>1к6</span></span></td><td>9</td><td>+15 футов</td>
@@ -64,7 +64,7 @@ const details = {
 <div>
 <p><strong>Доспехи: </strong>нет</p>
 <p><strong>Оружие:</strong> <span class="additionalAbility">Простое оружие</span>, <span class="additionalAbility">короткие мечи</span></p>
-<p><strong>Инструменты: </strong>Выберите один вид <a href="/articles/inventory/100-tools/#ремесленников" target="_blank">инструмента ремесленников</a>, либо <a href="/articles/inventory/100-tools/#Музыкальные" target="_blank">музыкального инструмента</a>.</p>
+<p><strong>Инструменты: </strong>Выберите один вид <span>инструмента ремесленников</span>, либо <span>музыкального инструмента</span>.</p>
 <p><strong>Спасброски:</strong> Сила, Ловкость</p>
 <p><strong>Навыки: </strong>Выберите два навыка из следующих: <span class="tooltipstered tooltip" tooltip-for="skill.acrobatics">Акробатика</span>, <span class="tooltipstered tooltip" tooltip-for="skill.athletics">Атлетика</span>, <span class="tooltipstered tooltip" tooltip-for="skill.history">История</span>, <span class="tooltipstered tooltip" tooltip-for="skill.insight">Проницательность</span>, <span class="tooltipstered tooltip" tooltip-for="skill.religion">Религия</span>, <span class="tooltipstered tooltip" tooltip-for="skill.stealth">Скрытность</span>.</p>
 <br/>
@@ -139,7 +139,7 @@ const details = {
     "увеличение характеристик": `
 	<h3 class="underlined"><span id="feature.ASI">Увеличение характеристик</span></h3><p><em>4-й уровень, умение монаха</em></p>
 	<p>При достижении 4-го, 8-го, 12-го, 16-го и 19-го уровней вы можете повысить значение одной из ваших характеристик на 2 или двух характеристик на 1. Как обычно, значение характеристики при этом не должно превысить 20.</p>
-	<p>Если ваш Мастер разрешает использование черт, вы можете отказаться от преимуществ этого умения при повышении значений характеристик и вместо этого взять <a href="/feats/">черту</a>.</p>
+	<p>Если ваш Мастер разрешает использование черт, вы можете отказаться от преимуществ этого умения при повышении значений характеристик и вместо этого взять <span class="feat">черту</span>.</p>
 	<br>`,
     "медленное падение": `
 	<h3 class="underlined"><span id="feature.slow-fall">Медленное падение</span></h3><p><em>4-й уровень, умение монаха</em></p>
@@ -169,7 +169,7 @@ const details = {
 	<br>`,
     увёртливость: `
 	<h3 class="underlined"><span id="feature.evasion">Увёртливость</span></h3><p><em>7-й уровень, умение монаха</em></p>
-	<p>Ваше инстинктивное проворство позволяет вам уклоняться от эффектов, направленных на определённую область, вроде дыхания синего дракона или заклинания <a href="/spells/205-fireball/" target="_blank">огненный шар [fireball]</a>. Если вы попадаете под действие эффекта, который позволяет вам совершить спасбросок Ловкости, чтобы получить только половину урона, вместо этого вы не получаете вовсе никакого урона, если спасбросок был успешен, и получаете только половину урона, если он был провален.</p>
+	<p>Ваше инстинктивное проворство позволяет вам уклоняться от эффектов, направленных на определённую область, вроде дыхания синего дракона или заклинания <span class="spellTip">огненный шар</span>. Если вы попадаете под действие эффекта, который позволяет вам совершить спасбросок Ловкости, чтобы получить только половину урона, вместо этого вы не получаете вовсе никакого урона, если спасбросок был успешен, и получаете только половину урона, если он был провален.</p>
 	<br>`,
     "спокойствие разума": `
 	<h3 class="underlined"><span id="feature.stillness-of-mind">Спокойствие разума</span></h3><p><em>7-й уровень, умение монаха</em></p>
@@ -194,7 +194,7 @@ const details = {
     "пустое тело": `
 	<h3 class="underlined"><span id="feature.empty-body">Пустое тело</span></h3><p><em>18-й уровень, умение монаха</em></p>
 	<p>Вы можете действием потратить 4 очка ци, чтобы стать <span tooltip-for="condition.invisible" class="tooltipstered tooltip">невидимым</span> на 1 минуту. В течение этого времени вы получаете сопротивление всем видам урона, кроме урона силовым полем.</p>
-	<p>Кроме того, вы можете потратить 8 очков ци, чтобы наложить заклинание <a href="/spells/284-astral_projection/" target="_blank">проекция в астрал [astral projection]</a> без применения материальных компонентов. Вы не можете перемещать кого-либо вместе с собой.</p>
+	<p>Кроме того, вы можете потратить 8 очков ци, чтобы наложить заклинание <span class="spellTip">проекция в астрал</span> без применения материальных компонентов. Вы не можете перемещать кого-либо вместе с собой.</p>
 	<br>`,
     совершенство: `
 	<h3 class="underlined"><span id="feature.perfect-self">Совершенство</span></h3><p><em> 20-й уровень, умение монаха</em></p>

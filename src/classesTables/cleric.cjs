@@ -13,7 +13,7 @@ const details = {
 <td><span class="tableAbility">Использование заклинаний</span>, <span class="tableAbility">Божественный домен</span>, <span class="tableAbility">Дополнительные заклинания</span></td>
 <td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>2</td><td>+2</td>
-<td><a href="#feature.channel-divinity">Божественный канал (1/отдых)</a>, <span class="tableAbility">Умение божественного домена</span>, <span class="tableAbility">Праведное восстановление</span></td>
+<td><span class="tableAbility">Божественный канал (1/отдых)</span>, <span class="tableAbility">Умение божественного домена</span>, <span class="tableAbility">Праведное восстановление</span></td>
 <td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>3</td><td>+2</td>
 <td>—</td>
@@ -22,10 +22,10 @@ const details = {
 <td><span class="tableAbility">Увеличение характеристик</span>, <span class="tableAbility">Универсальность заговоров</span></td>
 <td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>5</td><td>+3</td>
-<td><a href="#feature.destroy-undead">Уничтожение Нежити (ПО ½)</a></td>
+<td><span class="tableAbility">Уничтожение Нежити (ПО ½)</span></td>
 <td>4</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td style="">6</td><td style="">+3</td>
-<td><a href="#feature.channel-divinity" style="">Божественный канал (2/отдых)</a>, <span class="tableAbility">Умение божественного домена</span></td>
+<td><span class="tableAbility">Божественный канал (2/отдых)</span>, <span class="tableAbility">Умение божественного домена</span></td>
 <td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>7</td><td>+3</td>
 <td>—</td>
@@ -37,7 +37,7 @@ const details = {
 <td>—</td>
 <td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td style="">10</td><td style="">+4</td>
-<td><a href="#feature.divine-intervention" style="">Божественное вмешательство</a></td>
+<td><span class="tableAbility">Божественное вмешательство</span></td>
 <td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>11</td><td>+4</td>
 <td><span class="tableAbility">Уничтожение Нежити (ПО 2)</span></td>
@@ -61,7 +61,7 @@ const details = {
 <td><span class="tableAbility">Уничтожение Нежити (ПО 4)</span>, <span class="tableAbility">Умение божественного домена</span></td>
 <td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
 <tr><td>18</td><td>+6</td>
-<td><a href="#feature.channel-divinity">Божественный канал (3/отдых)</a></td>
+<td><span class="tableAbility">Божественный канал (3/отдых)</span></td>
 <td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
 <tr><td>19</td><td>+6</td>
 <td><span class="tableAbility">Увеличение характеристик</span></td>
@@ -96,11 +96,11 @@ const details = {
   explanations: {
     "использование заклинаний": `
 <h3 class="underlined"><span id="feature.spellcasting">Использование заклинаний</span></h3><p><em>1-й уровень, умение жреца</em></p>
-<p>Будучи проводником божественной силы, вы можете накладывать заклинания жреца. Вы найдёте список заклинаний, доступных жрецу в этом разделе: <a href="/spells/?search=&amp;level=&amp;school=&amp;class=13&amp;concentration=&amp;source=102%7C107%7C108%7C109%7C112%7C114%7C115%7C116%7C117%7C118" target="_blank">заклинания жреца</a>. Так же правила по использованию заклинаний есть в этой статье: <a href="/articles/mechanics/157-spellcasting/"><strong style=""><em> использование заклинаний</em></strong></a>.</p>
-<h4 class="smallSectionTitle">Заговоры (заклинания 0-го уровня)</h4><p>На 1-м уровне вы знаете три <a href="/spells/?search=&amp;level=0&amp;school=&amp;class=13&amp;concentration=&amp;source=" target="_blank">заговора</a> на свой выбор из списка заклинаний жреца. Вы узнаёте дополнительные заговоры жреца на более высоких уровнях, как показано в колонке «Известные заговоры».</p>
+<p>Будучи проводником божественной силы, вы можете накладывать заклинания жреца. Вы найдёте список заклинаний, доступных жрецу в этом разделе: <span>заклинания жреца</span>. Так же правила по использованию заклинаний есть в этой статье: <span><strong style=""><em> использование заклинаний</em></strong</span>.</p>
+<h4 class="smallSectionTitle">Заговоры (заклинания 0-го уровня)</h4><p>На 1-м уровне вы знаете три <span>заговора</span> на свой выбор из списка заклинаний жреца. Вы узнаёте дополнительные заговоры жреца на более высоких уровнях, как показано в колонке «Известные заговоры».</p>
 <h4 class="smallSectionTitle">Подготовка и сотворение заклинаний</h4><p>Таблица «Жрец» показывает, какое количество ячеек для накладывания заклинаний жреца у вас есть на первом и более высоких уровнях. Для накладывания одного из этих заклинаний вы должны потратить ячейку заклинаний того же уровня или выше, что и само заклинание. Вы восстановите все потраченные ячейки, когда закончите продолжительный отдых.</p>
 <p>Вы подготавливаете список заклинаний жреца, доступных для накладывания. При этом вы выбираете <strong>количество заклинаний жреца, равное модификатору Мудрости + уровень жреца (минимум одно заклинание)</strong>. Уровень заклинаний не должен превышать уровень самой высокой имеющейся у вас ячейки заклинаний.</p>
-<p>Например, если вы жрец 3-го уровня, то у вас есть четыре ячейки заклинаний 1-го уровня и две ячейки 2-го уровня. При Мудрости 16 ваш список подготовленных заклинаний может включать в себя шесть заклинаний 1-го или 2-го уровня в любой комбинации. Если вы подготовили заклинание 1-го уровня <a href="/spells/145-cure_wounds/" target="_blank">лечение ран [cure wounds]</a>, вы можете наложить его, используя ячейку 1-го уровня или ячейку 2-го уровня. Накладывание заклинания не удаляет его из списка подготовленных заклинаний.</p>
+<p>Например, если вы жрец 3-го уровня, то у вас есть четыре ячейки заклинаний 1-го уровня и две ячейки 2-го уровня. При Мудрости 16 ваш список подготовленных заклинаний может включать в себя шесть заклинаний 1-го или 2-го уровня в любой комбинации. Если вы подготовили заклинание 1-го уровня <span class="spellTip">лечение ран</span>, вы можете наложить его, используя ячейку 1-го уровня или ячейку 2-го уровня. Накладывание заклинания не удаляет его из списка подготовленных заклинаний.</p>
 <p>Вы можете изменить список подготовленных заклинаний, когда заканчиваете продолжительный отдых. Подготовка нового списка заклинаний жреца требует времени, проведённого в молитвах и медитации: не менее 1 минуты за уровень заклинания для каждого заклинания в вашем списке.</p>
 <h4 class="smallSectionTitle">Базовая характеристика заклинаний</h4><p>При накладывании заклинаний жрец использует Мудрость. Сила ваших заклинаний исходит от вашей преданности своему божеству. Вы используете Мудрость в случаях, когда заклинание ссылается на базовую характеристику. Кроме того, вы используете модификатор Мудрости при определении Сл спасбросков от ваших заклинаний жреца, и при броске атаки заклинаниями.</p>
 <p style="text-align: center;"><strong>Сл спасброска</strong> = 8 + ваш бонус мастерства + ваш модификатор Мудрости</p>
@@ -116,12 +116,12 @@ const details = {
 <br>
 <div class="table-wrapper"><table><tbody>
 <tr class="table_header"><td style="text-align: center;">Уровень<br>заклинания</td><td>Заклинания</td></tr>
-<tr><td style="text-align: center;">3</td><td><a href="/spells/3-aura_of_vitality/" target="_blank">аура живучести [aura of vitality]</a>, <a href="/spells/3051-spirit_shroud/" target="_blank">покров духа [spirit shroud]</a></td></tr>
-<tr><td style="text-align: center;">4</td><td><a href="/spells/4-aura_of_life/" target="_blank">аура жизни [aura of life]</a>, <a href="/spells/5-aura_of_purity/" target="_blank">аура очищения [aura of purity]</a></td></tr>
-<tr><td style="text-align: center;">5</td><td><a href="/spells/3066-summon_celestial/" target="_blank">призыв духа небожителя [summon celestial]</a></td></tr>
-<tr><td style="text-align: center;">6</td><td><a href="/spells/329-sunbeam/" target="_blank">солнечный луч [sunbeam]</a></td></tr>
-<tr><td style="text-align: center;">8</td><td><a href="/spells/330-sunburst/" target="_blank">солнечный ожог [sunburst]</a></td></tr>
-<tr><td style="text-align: center;">9</td><td><a href="/spells/320-power_word_heal/" target="_blank">слово силы: исцеление [power word heal]</a></td></tr>
+<tr><td style="text-align: center;">3</td><td><span class="spellTip">аура живучести</span>, <span class="spellTip">покров духа</span></td></tr>
+<tr><td style="text-align: center;">4</td><td><span class="spellTip">аура жизни</span>, <span class="spellTip">аура очищения</span></td></tr>
+<tr><td style="text-align: center;">5</td><td><span class="spellTip">призыв духа небожителя</span></td></tr>
+<tr><td style="text-align: center;">6</td><td><span class="spellTip">солнечный луч</span></td></tr>
+<tr><td style="text-align: center;">8</td><td><span class="spellTip">солнечный ожог</span></td></tr>
+<tr><td style="text-align: center;">9</td><td><span class="spellTip">слово силы: исцеление</span></td></tr>
 </tbody></table></div>
 </div>
 <br>`,
@@ -148,7 +148,7 @@ const details = {
     "увеличение характеристик": `
 <h3 class="underlined"><span id="feature.ASI">УВЕЛИЧЕНИЕ ХАРАКТЕРИСТИК</span></h3><p><em>4-й уровень, умение жреца</em></p>
 <p>При достижении 4-го, 8-го, 12-го, 16-го и 19-го уровней вы можете повысить значение одной из ваших характеристик на 2 или двух характеристик на 1. Как обычно, значение характеристики при этом не должно превысить 20.</p>
-<p>Если ваш Мастер разрешает использование черт, вы можете отказаться от преимуществ этого умения при повышении значений характеристик и вместо этого взять <a href="/feats/">черту</a>.</p>
+<p>Если ваш Мастер разрешает использование черт, вы можете отказаться от преимуществ этого умения при повышении значений характеристик и вместо этого взять <span class="feat">черту</span>.</p>
 <div class="TCE-feature-on" bis_skin_checked="1">
 <br>`,
     "универсальность заговоров": `
