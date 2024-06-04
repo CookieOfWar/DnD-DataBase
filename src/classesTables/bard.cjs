@@ -105,7 +105,7 @@ const details = {
 <h4 class="smallSectionTitle" style="">Заговоры (заклинания 0-го уровня)</h4>
 <p style="">Вы знаете два <span>заговора</span> из списка доступных для барда на ваш выбор. При достижении более высоких уровней вы выучите новые, в соответствии с колонкой «известные заговоры».</p>
 <h4 class="smallSectionTitle" style="">Ячейки заклинаний</h4>
-<p style="">Таблица «<span>Бард</span>» показывает, сколько ячеек заклинаний у вас есть для заклинаний барда 1-го и других уровней. Для накладывания заклинания вы должны потратить ячейку соответствующего либо превышающего уровня. Вы восстанавливаете все потраченные ячейки в конце продолжительного отдыха. Например, если вы знаете заклинание 1-го уровня <span class="spellTip">лечение ран</span>, и у вас есть ячейки 1-го и 2-го уровней, вы можете наложить его с помощью любой из этих ячеек.</p>
+<p style="">Таблица «<span>Бард</span>» показывает, сколько ячеек заклинаний у вас есть для заклинаний барда 1-го и других уровней. Для накладывания заклинания вы должны потратить ячейку соответствующего либо превышающего уровня. Вы восстанавливаете все потраченные ячейки в конце продолжительного отдыха. Например, если вы знаете заклинание 1-го уровня <span class="spellTip">Лечение ран</span>, и у вас есть ячейки 1-го и 2-го уровней, вы можете наложить его с помощью любой из этих ячеек.</p>
 <h4 class="smallSectionTitle" style="">Известные заклинания первого и более высоких уровней</h4>
 <p style="">Вы знаете четыре заклинания 1-го уровня на свой выбор из списка доступных барду.</p>
 <p style="">Колонка «<span>известные заклинания</span>» показывает, когда вы сможете выучить новые заклинания. Уровень заклинаний не должен превышать уровень самой высокой имеющейся у вас ячейки заклинаний. Например, когда вы достигнете 3-го уровня в этом классе, вы можете выучить одно новое заклинание 1-го или 2-го уровня.</p>
@@ -126,15 +126,15 @@ const details = {
 <h4 class="tableTitle">Бард</h4>
 <div class="table-wrapper"><table class=".td_1__centered"><tbody>
 <tr class="table_header"><td style="text-align: center;">Уровень<br>заклинания</td><td>Заклинания</td></tr>
-<tr><td>1</td><td><span class="spellTip">приказ</span>, <span class="spellTip">сверкающие брызги</span></td></tr>
-<tr><td>2</td><td><span class="spellTip">отражения</span>, <span class="spellTip">подмога</span>, <span class="spellTip">увеличение/уменьшение</span></td></tr>
-<tr><td>3</td><td><span class="spellTip">замедление</span>, <span class="spellTip">крепость интеллекта</span>, <span class="spellTip">множественное лечащее слово</span></td></tr>
-<tr><td>4</td><td><span class="spellTip">воображаемый убийца</span></td></tr>
-<tr><td>5</td><td><span class="spellTip">ментальная связь Рэри</span> (ритуал)</td></tr>
-<tr><td>6</td><td><span class="spellTip">пир героев</span></td></tr>
-<tr><td>7</td><td><span class="spellTip">радужные брызги</span>, <span class="spellTip">сон синей вуали</span></td></tr>
-<tr><td>8</td><td><span class="spellTip">антипатия/симпатия</span></td></tr>
-<tr><td>9</td><td><span class="spellTip">радужная стена</span></td></tr>
+<tr><td>1</td><td><span class="spellTip">Приказ</span>, <span class="spellTip">Сверкающие брызги</span></td></tr>
+<tr><td>2</td><td><span class="spellTip">Отражения</span>, <span class="spellTip">Подмога</span>, <span class="spellTip">Увеличение/уменьшение</span></td></tr>
+<tr><td>3</td><td><span class="spellTip">Замедление</span>, <span class="spellTip">Крепость интеллекта</span>, <span class="spellTip">Множественное лечащее слово</span></td></tr>
+<tr><td>4</td><td><span class="spellTip">Воображаемый убийца</span></td></tr>
+<tr><td>5</td><td><span class="spellTip">Ментальная связь Рэри</span> (ритуал)</td></tr>
+<tr><td>6</td><td><span class="spellTip">Пир героев</span></td></tr>
+<tr><td>7</td><td><span class="spellTip">Радужные брызги</span>, <span class="spellTip">Сон синей вуали</span></td></tr>
+<tr><td>8</td><td><span class="spellTip">Антипатия/симпатия</span></td></tr>
+<tr><td>9</td><td><span class="spellTip">Радужная стена</span></td></tr>
 </tbody></table></div></div>
 
 <br>
