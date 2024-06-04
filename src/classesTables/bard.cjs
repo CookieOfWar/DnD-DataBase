@@ -1,7 +1,7 @@
 const details = {
   table: `
-<table class="class_table"><tbody>
-<tr class="table_header wide_table">
+<table class="class_table wide_table"><tbody>
+<tr class="table_header">
 <td rowspan="2"><span class="long">Уровень</span><span class="short tooltip tooltipstered">ур</span></td>
 <td rowspan="2"><span class="long">Бонус<br/>мастерства</span><span class="short tooltip tooltipstered">бм</span></td>
 <td rowspan="2">Умения</td>
