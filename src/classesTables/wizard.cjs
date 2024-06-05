@@ -129,7 +129,7 @@ const details = {
 <tr><td>1</td><td><span class="spellTip">Едкое варево Таши</span>&nbsp;(воплощ.) </td></tr>
 <tr><td>2</td><td><span class="spellTip">Гадание</span> (прориц., ритуал), <span class="spellTip">Психическая плеть Таши</span>&nbsp;(очаров.), <span class="spellTip">Улучшение характеристики</span> (преобр.)</td></tr>
 <tr><td>3</td><td><span class="spellTip">Крепость интеллекта</span>&nbsp;(огражд.), <span class="spellTip">Покров духа</span>&nbsp;(некр.), <span class="spellTip">Призыв духа нежити</span>&nbsp;(некр.), <span class="spellTip">Призыв духа тени</span>&nbsp;(выз.), <span class="spellTip">Призыв духа феи</span>&nbsp;(выз.), <span class="spellTip">Разговор с мертвыми</span> (некр.) </td></tr>
-<tr><td>4</td><td><span class="spellTip">Предсказание</span> (прориц., ритуал), <span class="spellTip">Призыв духа аберрации</span>&nbsp;(выз.), <span class="spellTip">Призыв духа конструкта</span>&nbsp;(выз.), <span class="spellTip">Призыв духа элементаля</span>&nbsp;(выз.) </td></tr>
+<tr><td>4</td><td><span class="spellTip">Предсказание</span> (прориц., ритуал), <span class="spellTip">Призыв духа аберрации</span>&nbsp;(выз.), <span class="spellTip">Призыв духа конструкта</span>&nbsp;(выз.), <span class="spellTip">Призыв духа стихии</span>&nbsp;(выз.) </td></tr>
 <tr><td>6</td><td><span class="spellTip">Потусторонний облик Таши</span>&nbsp;(преобр.), <span class="spellTip">Призыв духа исчадия</span>&nbsp;(выз.) </td></tr>
 <tr><td>7</td><td><span class="spellTip">Сон синей вуали</span>&nbsp;(выз.) </td></tr>
 <tr><td>9</td><td><span class="spellTip">Клинок разрушения</span>&nbsp;(выз.) </td></tr>
