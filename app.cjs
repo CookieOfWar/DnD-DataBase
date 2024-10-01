@@ -40,3 +40,7 @@ app.get(/\/class\/(.*)/, (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
+
+app.get(/\/WEB\/(.*)/, (req, res) => {
+  res.sendFile(__dirname + `/forWeb/${req.path.split("/")[2]}.jpg`);
+});
